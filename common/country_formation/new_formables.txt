@@ -1,0 +1,347 @@
+﻿ROB = {
+	#use_culture_states = yes
+	states = {
+		STATE_WALLACHIA 
+		STATE_BULGARIA 
+		STATE_MOLDAVIA
+		STATE_BESSARABIA 
+		STATE_DOBRUDJA
+		STATE_NORTHERN_THRACE
+		STATE_BANAT
+		STATE_SOUTHERN_TRANSYLVANIA
+	}
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_rombul
+	leadership_play = dp_leadership_rombul
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+
+ETS = {
+	states = {
+		STATE_TUSCANY
+		STATE_LOMBARDY
+		STATE_EMILIA
+		STATE_ROMAGNA
+	}
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_etrusca
+	leadership_play = dp_leadership_etrusca
+
+	required_states_fraction = 0.75
+	
+	possible = {
+		OR = {
+			this = c:TUS
+			this = c:PSS
+		}
+			has_technology_researched = nationalism
+			NOT = { this = c:ITA }
+	}
+
+	ai_will_do = { always = yes }
+}
+
+
+LIG = {
+	states = {
+		STATE_PIEDMONT
+		STATE_PROVENCE
+		STATE_EMILIA
+		STATE_CORSICA
+	}
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_liguria
+	leadership_play = dp_leadership_liguria
+
+	required_states_fraction = 0.75
+	
+	possible = {
+			this = c:GEN
+			has_technology_researched = nationalism
+			NOT = { this = c:ITA }
+	}
+
+	ai_will_do = { always = yes }
+}
+
+
+
+BAB = {
+	states = {
+		STATE_BAGHDAD
+		STATE_TRANSJORDAN
+		STATE_PALESTINE
+		STATE_LEBANON
+		STATE_SYRIA
+		STATE_ALEPPO
+		STATE_MOSUL
+		STATE_DEIR_EZ_ZOR
+		STATE_BASRA
+		STATE_SINAI
+	}
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_babylon
+	leadership_play = dp_leadership_babylon
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			this = c:SYR
+			this = c:ASY
+			this = c:IRQ
+		}	
+		any_country = {
+			OR = {
+				country_has_primary_culture = cu:assyrian
+				country_has_primary_culture = cu:mashriqi
+			}			
+			has_technology_researched = nationalism
+		}
+	}
+}
+
+
+
+
+LTH = {
+	states = {
+		STATE_WALLONIA
+		STATE_FLANDERS
+		STATE_WALLONIA
+		STATE_FRIESLAND 
+		STATE_RHINELAND 
+		STATE_NORTH_RHINE
+		STATE_GELRE 
+		STATE_HOLLAND 
+		STATE_ALSACE_LORRAINE
+		STATE_FRANCHE_COMTE
+		STATE_BURGUNDY
+		STATE_EAST_SWITZERLAND
+		STATE_WEST_SWITZERLAND
+		STATE_PIEDMONT
+		STATE_SAVOY 
+	}
+
+	required_states_fraction = 0.5	
+	
+	possible = {
+		OR = {
+			this = c:BEL
+			this = c:SWI
+			this = c:LOR
+			this = c:BRG
+			this = c:LUX
+			this = c:SAR
+			this = c:NET
+		}
+		NOT = {
+			this = c:ITA
+			this = c:FRA
+			this = c:GER
+			this = c:NGF
+			this = c:SGF
+		}
+			has_technology_researched = nationalism
+	}
+
+	ai_will_do = { always = yes }
+}
+
+
+
+
+NRS = {
+
+	states = {
+		STATE_JUTLAND
+		STATE_ZEALAND
+		STATE_NORTH_NORWAY
+		STATE_WESTERN_NORWAY
+		STATE_EASTERN_NORWAY
+		STATE_ICELAND
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:danish
+			country_has_primary_culture = cu:norwegian
+			country_has_primary_culture = cu:icelandic
+		}		
+		has_technology_researched = nationalism
+	}
+}
+
+
+
+
+BNL = {
+
+	states = {
+		STATE_WALLONIA
+		STATE_FLANDERS
+		STATE_WALLONIA
+		STATE_FRIESLAND 
+		STATE_GELRE 
+		STATE_HOLLAND 
+	}
+
+	required_states_fraction = 0.75	
+	
+	possible = {
+		OR = {
+			this = c:BEL
+			this = c:NET
+			this = c:LUX
+		}
+			has_technology_researched = pan-nationalism
+	}
+
+	ai_will_do = { always = yes }
+}
+
+
+GSX = {
+	states = {
+		STATE_ELBE
+		STATE_WESTPHALIA 
+		STATE_ANHALT
+		STATE_HANNOVER
+		STATE_BRUNSWICK
+		STATE_SAXONY
+	}
+
+	required_states_fraction = 0.8
+
+	possible = {
+		custom_tooltip = {
+			OR = {
+				this = c:HAN
+  		 		this = c:SAX
+  		 		this = c:WEI
+  		 		this = c:ANH
+			}
+			NOT = {
+				this = c:GER
+				this = c:NGF
+			}
+		}
+		has_technology_researched = nationalism
+	}
+
+	ai_will_do = { always = yes }
+}
+
+
+NSG = {
+	states = {
+		STATE_ELBE
+		STATE_WESTPHALIA 
+		STATE_ANHALT
+		STATE_HANNOVER
+		STATE_BRUNSWICK
+		STATE_SAXONY
+		STATE_HOME_COUNTIES
+		STATE_MIDLANDS
+		STATE_EAST_ANGLIA
+		STATE_WEST_COUNTRY
+		STATE_YORKSHIRE
+		STATE_LANCASHIRE
+	}
+
+	required_states_fraction = 0.8
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		custom_tooltip = {
+			OR = {
+				this = c:GSX
+  		 		this = c:GBR
+			}
+			NOT = {
+				this = c:GER
+			}
+		}
+		has_technology_researched = pan-nationalism
+	}
+}
+
+
+
+GAE = {
+	states = {
+		STATE_LOWLANDS
+		STATE_HIGHLANDS 
+		STATE_ULSTER
+		STATE_MUNSTER
+		STATE_CONNAUGHT
+		STATE_LEINSTER
+	}
+
+	required_states_fraction = 0.8
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		custom_tooltip = {
+			OR = {
+				this = c:SCO
+  		 		this = c:IRE
+			}
+		}
+		has_technology_researched = nationalism
+	}
+}
+
+SWP = {
+
+	states = {
+		STATE_SVEALAND
+		STATE_GOTALAND
+		STATE_NORRLAND
+		STATE_SCANIA
+		STATE_GREATER_POLAND
+		STATE_MAZOVIA
+		STATE_LESSER_POLAND
+		STATE_OSTROBOTHNIA
+		STATE_SOUTHERN_FINLAND
+		STATE_ESTONIA
+		STATE_LATVIA
+		STATE_LITHUANIA
+	}
+
+	possible = {
+		custom_tooltip = {
+			OR = {
+				this = c:POL
+  		 		this = c:SWE
+			}
+		}
+		has_technology_researched = nationalism
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+
+	has_technology_researched = nationalism
+
+}
