@@ -1,0 +1,222 @@
+PSS = {
+	color = { 100 190 190 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = {
+		north_italian
+	}
+	capital = STATE_TUSCANY
+}
+GEN = {
+	color = { 190 210 40 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = {
+		north_italian
+	}
+	capital = STATE_PIEDMONT 
+}
+RHI = {
+	color = { 10 150 10 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = {
+		north_german
+	}
+	capital = STATE_RHINELAND 
+}
+
+### Lotharingia ###
+
+BRG = {
+	color = { 192 70 90 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { french }	
+	capital = STATE_BURGUNDY
+}
+LOR = {
+	color = { 142 170 90 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { french }	
+	capital = STATE_FRANCHE_COMTE
+}
+
+### Greek ###
+
+TBZ = {
+	color = { 100 40 190 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { greek }	
+	capital = STATE_TRABZON
+}
+
+CRT = {
+	color = { 100 40 190 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { greek }	
+	capital = STATE_CRETE
+}
+
+EPR = {
+	color = { 254 220 48 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { greek }	
+	capital = STATE_THESSALY
+}
+
+ATH = {
+	color = { 24 220 248 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { greek }	
+	capital = STATE_ATTICA
+}
+
+MRE = {
+	color = { 254 48 48 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { greek }	
+	capital = STATE_PELOPONNESE
+}
+
+MAC = {
+	color = { 156  157  90 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { bulgarian greek }	
+	capital = STATE_SKOPIA
+}
+
+### North American colonies ###
+
+
+VIR = {
+	color = { 140 80 20 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { dixie yankee }	
+	capital = STATE_VIRGINIA
+}
+
+NWY = {
+	color = { 100 100 190 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { yankee }	
+	capital = STATE_NEW_YORK
+}
+
+FLR = {
+	color = { 120 10 100 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { dixie }	
+	capital = STATE_FLORIDA
+}
+
+ASK = {
+	color = { 10 10 100 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { athabaskan }	
+	capital = STATE_ALASKA
+}
+
+UGE = {
+	color = { 100 10 50 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { dixie }	
+	capital = STATE_GEORGIA
+}
+
+### South American colonies ###
+
+LVN = {
+	color = { 202 202 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { north_andean }
+	capital = STATE_BOLIVAR
+}
+
+RUR = {
+	color = { 210 140 20 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { platinean brazilian }
+	capital = STATE_URUGUAY
+}
+
+### Copt Egypt ###
+
+CPT = {
+	color = { 202  202  45 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { misri }
+	capital = STATE_UPPER_EGYPT
+}
