@@ -1,0 +1,8 @@
+﻿DIPLOMACY = {
+	c:GBR = {
+		create_diplomatic_pact = {
+			country = c:BEL
+			type = defensive_pact
+		}	
+	}	
+}
