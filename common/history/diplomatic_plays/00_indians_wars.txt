@@ -1,0 +1,24 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:LOU = {
+		create_diplomatic_play = {
+			name = "Pawnee war"
+		
+			target_state = s:STATE_KANSAS.region_state:PWN
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+	c:LOU = {
+		create_diplomatic_play = {
+			name = "Sioux war"
+		
+			target_state = s:STATE_SOUTH_DAKOTA.region_state:LKT
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+}

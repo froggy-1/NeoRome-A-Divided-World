@@ -1,0 +1,24 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:TUR = {
+		create_diplomatic_play = {
+			name = "Coptic war"
+		
+			target_state = s:STATE_SINAI.region_state:EGY
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+	c:TUR = {
+		create_diplomatic_play = {
+			name = "Coptic war"
+		
+			target_state = s:STATE_SYRIA.region_state:SYR
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+}

@@ -1,0 +1,63 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:CHI = {
+		create_diplomatic_play = {
+			name = "Heavenly war of independence"
+		
+			target_state = s:STATE_FUJIAN.region_state:TPG
+			
+			war = yes
+			
+			type = dp_annex_war
+			
+			add_war_goal = {
+				holder = c:CHI
+				type = return_state
+				target_state = s:STATE_NANJING.region_state:TPG
+			}			
+		}	
+	}
+	c:CHI = {
+		create_diplomatic_play = {
+			name = "Tuning war of independence"
+		
+			target_state = s:STATE_FORMOSA.region_state:FRS
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+	c:TPG = {
+		create_diplomatic_play = {
+			name = "Tuning war of independence"
+		
+			target_state = s:STATE_FORMOSA.region_state:FRS
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+	c:CHI = {
+		create_diplomatic_play = {
+			name = "Mongol war of independence"
+		
+			target_state = s:STATE_URGA.region_state:MGL
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+	c:CHI = {
+		create_diplomatic_play = {
+			name = "Xinjiang war of independence"
+		
+			target_state = s:STATE_DZUNGARIA.region_state:XIN
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+}

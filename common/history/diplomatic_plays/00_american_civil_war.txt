@@ -1,0 +1,57 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:UOM = {
+		create_diplomatic_play = {
+			name = "Great Lake war"
+		
+			target_state = s:STATE_ILLINOIS.region_state:FSA
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+	c:GBR = {
+		create_diplomatic_play = {
+			name = "New Afrika war"
+		
+			target_state = s:STATE_VIRGINIA.region_state:ASA
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+	c:CSA = {
+		create_diplomatic_play = {
+			name = "American war"
+		
+			target_state = s:STATE_GEORGIA.region_state:ASA
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+	c:GBR = {
+		create_diplomatic_play = {
+			name = "Dixie war"
+		
+			target_state = s:STATE_TENNESSE.region_state:CSA
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+	c:MEX = {
+		create_diplomatic_play = {
+			name = "Californian war"
+		
+			target_state = s:STATE_CALIFORNIA.region_state:CAL
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+}
