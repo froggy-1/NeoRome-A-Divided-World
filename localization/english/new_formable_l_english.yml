@@ -1,0 +1,140 @@
+﻿l_english:
+ ROB:0 "Bulgaria-Romania"
+ ROB_ADJ:0 "the Bulgaria-Romania"
+ ROB_FLAVOR_TEXT:0 "The Romanian-Bulgarian have been a way for many conquerors, today it must be united in one country to face the barbarians"
+ 
+ dp_unify_rombul:0 "A unified Bulgaria-Romania"
+ dp_unify_rombul_tooltip:0 "The start of a $dp_unify_rombul$[concept_diplomatic_play]"
+ dp_leadership_rombul:0 "The leader of the Bulgaria-Romania"
+ dp_leadership_rombul_desc:0 "Create a $dp_leadership_rombul$ [concept_diplomatic_play]"
+ 
+ je_rombul_unification:0 "Formation of the Bulgaria-Romania"
+ je_ROB_unify:0 "Is the Bulgaria-Romania"
+ je_rombul_unification_reason:0 "The time of the League of Nations had come, the nations of the Romanian-Bulgarian sought unity. We must strive to be a great power in Europe."
+ 
+ rombul_unification.1.t:0 "Bulgaria-Romania Unify Process"
+ rombul_unification.1.d:0 "If the whole of Bulgaria-Romania can be united as one nation, then they must be the strongest."
+ rombul_unification.1.f:0 "The time of the League of Nations had come, and more and more peoples believed that they should merge into a single great power.""
+ rombul_unification.1.a:0 "For the Bulgaria-Romania, Forward!"
+ 
+ rombul_unification.2.t:0 "The Bulgaria-Romania Unity"
+ rombul_unification.2.d:0 "The tireless efforts of politicians and soldiers have paid off, The whole of Bulgaria-Romania was united into one country."
+ rombul_unification.2.f:0 "Steps over Iron and blood, layout strategy and plan, The efforts of countless statesmen and strategists of the have paid off, and today Bulgaria-Romania are successfully unified into one giant nation: the Bulgaria-Romania . This is a day for celebration and reflection. Whatever the future holds, the Bulgaria-Romania has become the world first great power."
+ rombul_unification.2.a:0 "Cheers to [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]"
+ rombul_unification.2.b:0 "This is the great solidarity of the Romanian-Bulgarian peoples"
+ 
+ rombul_unifier_ruler:0 "Leader of the Bulgaria-Romania"
+
+
+
+ ETS:0 "Etrusca"
+ ETS_ADJ:0 "the Etrusca"
+ ETS_FLAVOR_TEXT:0 "The Etruscan have been a way for many conquerors, today it must be united in one country to face the barbarians"
+ 
+ dp_unify_etrusca:0 "A unified Etrusca"
+ dp_unify_etrusca_tooltip:0 "The start of a $dp_unify_etrusca$[concept_diplomatic_play]"
+ dp_leadership_etrusca:0 "The leader of the Etrusca"
+ dp_leadership_etrusca_desc:0 "Create a $dp_leadership_etrusca$ [concept_diplomatic_play]"
+ 
+ je_etrusca_unification:0 "Formation of the Etrusca"
+ je_ETS_unify:0 "Is the Etrusca"
+ je_etrusca_unification_reason:0 "The time of the League of Nations had come, the nations of the Etruscan sought unity. We must strive to be a great power in Europe."
+ 
+ etrusca_unification.1.t:0 "Etrusca Unify Process"
+ etrusca_unification.1.d:0 "If the whole of Etrusca can be united as one nation, then they must be the strongest."
+ etrusca_unification.1.f:0 "The time of the League of Nations had come, and more and more peoples believed that they should merge into a single great power.""
+ etrusca_unification.1.a:0 "For the Etrusca, Forward!"
+ 
+ etrusca_unification.2.t:0 "The Etrusca Unity"
+ etrusca_unification.2.d:0 "The tireless efforts of politicians and soldiers have paid off, The whole of Etrusca was united into one country."
+ etrusca_unification.2.f:0 "Steps over Iron and blood, layout strategy and plan, The efforts of countless statesmen and strategists of the have paid off, and today Etrusca are successfully unified into one giant nation: the Etrusca . This is a day for celebration and reflection. Whatever the future holds, the Etrusca has become the world first great power."
+ etrusca_unification.2.a:0 "Cheers to [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]"
+ etrusca_unification.2.b:0 "This is the great solidarity of the Etruscan peoples"
+ 
+ etrusca_unifier_ruler:0 "Head of the Etrusca"
+
+
+
+ LIG:0 "Liguria"
+ LIG_ADJ:0 "the Liguria"
+ LIG_FLAVOR_TEXT:0 "The Ligurian have been a way for many conquerors, today it must be united in one country to face the barbarians"
+ 
+ dp_unify_liguria:0 "A unified Liguria"
+ dp_unify_liguria_tooltip:0 "The start of a $dp_unify_liguria$[concept_diplomatic_play]"
+ dp_leadership_liguria:0 "The leader of the Liguria"
+ dp_leadership_liguria_desc:0 "Create a $dp_leadership_liguria$ [concept_diplomatic_play]"
+ 
+ je_liguria_unification:0 "Formation of the Liguria"
+ je_LIG_unify:0 "Is the Liguria"
+ je_liguria_unification_reason:0 "The time of the League of Nations had come, the nations of the Ligurian sought unity. We must strive to be a great power in Europe."
+ 
+ liguria_unification.1.t:0 "Liguria Unify Process"
+ liguria_unification.1.d:0 "If the whole of Liguria can be united as one nation, then they must be the strongest."
+ liguria_unification.1.f:0 "The time of the League of Nations had come, and more and more peoples believed that they should merge into a single great power.""
+ liguria_unification.1.a:0 "For the Liguria, Forward!"
+ 
+ liguria_unification.2.t:0 "The Liguria Unity"
+ liguria_unification.2.d:0 "The tireless efforts of politicians and soldiers have paid off, The whole of Liguria was united into one country."
+ liguria_unification.2.f:0 "Steps over Iron and blood, layout strategy and plan, The efforts of countless statesmen and strategists of the have paid off, and today Liguria are successfully unified into one giant nation: the Liguria . This is a day for celebration and reflection. Whatever the future holds, the Liguria has become the world first great power."
+ liguria_unification.2.a:0 "Cheers to [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]"
+ liguria_unification.2.b:0 "This is the great solidarity of the Ligurian peoples"
+ 
+ liguria_unifier_ruler:0 "President of the Liguria"
+
+
+
+ BAB:0 "Mashriq"
+ BAB_ADJ:0 "the Mashriq"
+ BAB_FLAVOR_TEXT:0 "The Mashriqi have been a way for many conquerors, today it must be united in one country to face the barbarians"
+ 
+ dp_unify_liguria:0 "A unified Mashriq"
+ dp_unify_liguria_tooltip:0 "The start of a $dp_unify_liguria$[concept_diplomatic_play]"
+ dp_leadership_liguria:0 "The leader of the Mashriq"
+ dp_leadership_liguria_desc:0 "Create a $dp_leadership_liguria$ [concept_diplomatic_play]"
+ 
+ je_liguria_unification:0 "Formation of the Mashriq"
+ je_BAB_unify:0 "Is the Mashriq"
+ je_liguria_unification_reason:0 "The time of the League of Nations had come, the nations of the Mashriqi sought unity. We must strive to be a great power in Europe."
+ 
+ liguria_unification.1.t:0 "Mashriq Unify Process"
+ liguria_unification.1.d:0 "If the whole of Mashriq can be united as one nation, then they must be the strongest."
+ liguria_unification.1.f:0 "The time of the League of Nations had come, and more and more peoples believed that they should merge into a single great power.""
+ liguria_unification.1.a:0 "For the Mashriq, Forward!"
+ 
+ liguria_unification.2.t:0 "The Mashriq Unity"
+ liguria_unification.2.d:0 "The tireless efforts of politicians and soldiers have paid off, The whole of Mashriq was united into one country."
+ liguria_unification.2.f:0 "Steps over Iron and blood, layout strategy and plan, The efforts of countless statesmen and strategists of the have paid off, and today Mashriq are successfully unified into one giant nation: the Mashriq . This is a day for celebration and reflection. Whatever the future holds, the Mashriq has become the world first great power."
+ liguria_unification.2.a:0 "Cheers to [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]"
+ liguria_unification.2.b:0 "This is the great solidarity of the Mashriqi peoples"
+ 
+ liguria_unifier_ruler:0 "King of the Mashriq"
+
+
+
+ LTH:0 "Lotharingia"
+ LTH_ADJ:0 "Lotharingia"
+ LTH_FLAVOR_TEXT:0 "The Lotharingian have been a way for many conquerors, today it must be united in one country to face the barbarians"
+
+ NRS:0 "North Sea Federation"
+ NRS_ADJ:0 "Norse"
+ NRS_FLAVOR_TEXT:0 "The Norse have been a way for many conquerors, today it must be united in one country to face the barbarians"
+
+ BNL:0 "Benelux"
+ BNL_ADJ:0 "Beneluxian"
+ BNL_FLAVOR_TEXT:0 "The Beneluxian have been a way for many conquerors, today it must be united in one country to face the barbarians"
+
+ GSX:0 "Hanseatic union"
+ GSX_ADJ:0 "Hansa"
+ GSX_FLAVOR_TEXT:0 "The Saxon have been a way for many conquerors, today it must be united in one country to face the barbarians"
+
+ NSG:0 "Anglo-Saxon Empire"
+ NSG_ADJ:0 "Ingvaeonic "
+ NSG_FLAVOR_TEXT:0 "The Ingvaeonic have been a way for many conquerors, today it must be united in one country to face the barbarians"
+
+ GAE:0 "Gaelic Federation"
+ GAE_ADJ:0 "Gaelic "
+ GAE_FLAVOR_TEXT:0 "The Gaelic have been a way for many conquerors, today it must be united in one country to face the barbarians"
+
+ SWP:0 "Baltic Empire"
+ SWP_ADJ:0 "Baltic"
+ SWP_FLAVOR_TEXT:0 "The Baltic have been a way for many conquerors, today it must be united in one country to face the barbarians"
