@@ -1,4 +1,4 @@
-PSS = {
+﻿PSS = {
 	color = { 100 190 190 }
 	
 	country_type = recognized

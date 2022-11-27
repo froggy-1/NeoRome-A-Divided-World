@@ -1,0 +1,129 @@
+﻿ROB = {
+	color = { 225 210 95 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		romanian
+		bulgarian
+	}
+	capital = STATE_WALLACHIA
+}
+
+ETS = {
+	color = { 90 210 215 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = {
+		north_italian
+	}
+	capital = STATE_TUSCANY
+}
+
+LIG = {
+	color = { 20 60 215 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = {
+		north_italian
+	}
+	capital = STATE_PIEDMONT
+}
+
+BAB = {
+	color = { 115  95  190 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { mashriqi }	
+	capital = STATE_BASRA
+}
+
+LTH = {
+	color = { 140 170 25 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { flemish dutch wallonian swiss }	
+	capital = STATE_WALLONIA
+}
+
+NRS = {
+	color = { 126 75 75 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { danish norwegian icelandic }	
+	capital = STATE_JUTLAND 
+}
+
+BNL = {
+	color = { 173 70 25 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { flemish dutch wallonian }	
+	capital = STATE_HOLLAND
+}
+
+GSX = {
+	color = { 100 190 100 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german }	
+	capital = STATE_HANNOVER
+}
+
+NSG = {
+	color = { 190 100 100 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_german english }	
+	capital = STATE_HOME_COUNTIES
+}
+
+SWP= {
+	color = { 25 20 140 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { swedish polish }	
+	capital = STATE_SVEALAND
+}
+
+### Celtic formables ###
+
+GAE = {
+	color = { 100 105 50 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { scottish irish }	
+	capital = STATE_LOWLANDS
+}
