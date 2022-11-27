@@ -1,0 +1,32 @@
+﻿ROB = {
+	flag_definition = {
+		coa = ROB
+		subject_canton = ROB_subject
+		priority = 219
+		allow_overlord_canton = yes
+	}
+}
+ETS = {
+	flag_definition = {
+		coa = ETS
+		subject_canton = ETS_subject
+		priority = 219
+		allow_overlord_canton = yes
+	}
+}
+LIG = {
+	flag_definition = {
+		coa = LIG
+		subject_canton = LIG_subject
+		priority = 219
+		allow_overlord_canton = yes
+	}
+}
+BAB = {
+	flag_definition = {
+		coa = BAB
+		subject_canton = BAB_subject
+		priority = 219
+		allow_overlord_canton = yes
+	}
+}
