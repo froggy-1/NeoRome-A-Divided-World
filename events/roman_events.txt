@@ -1,0 +1,38 @@
+﻿namespace = rome
+
+rome.1 = {
+	type = country_event
+	placement = ROOT
+	
+	title = rome.1.t
+	desc = rome.1.d
+	flavor = rome.1.f
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+   	 trigger = {
+     	   	exists = c:PAP
+   	     	this = c:PAP
+		current_game_date = 1842.1.1	
+	}
+
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	duration = 3
+	
+	option = {
+		name = rome.1.a
+		default_option = yes
+		create_diplomatic_play = {
+			name = "Illyrian wars"
+			target_country = scope:SER
+			type = dp_annex_war
+		}
+		create_diplomatic_play = {
+			name = "Illyrian wars"
+			target_country = scope:MON
+			type = dp_annex_war
+		}
+	}
+}

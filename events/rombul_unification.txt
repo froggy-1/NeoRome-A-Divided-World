@@ -1,0 +1,79 @@
+﻿namespace = rombul_unification
+
+rombul_unification.1 = {
+	type = country_event
+	placement = ROOT
+	
+	title = rombul_unification.1.t
+	desc = rombul_unification.1.d
+	flavor = rombul_unification.1.f
+	
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+	
+	icon = "gfx/interface/icons/event_icons/unify.dds"
+	
+	duration = 3
+	
+	option = {
+		name = rombul_unification.1.a
+		default_option = yes
+		add_loyalists = {
+			value = 0.1
+		}
+	}
+}
+
+rombul_unification.2 = {
+	type = country_event
+	placement = ROOT
+	
+	title = rombul_unification.2.t
+	desc = rombul_unification.2.d
+	flavor = rombul_unification.2.f
+	
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+	
+	icon = "gfx/interface/icons/event_icons/unify.dds"
+	
+	duration = 3
+	
+	trigger = {
+		NOR = {
+			is_at_war = yes
+			is_diplomatic_play_committed_participant = yes
+		}
+	}
+	
+	option = {
+		name = rombul_unification.2.a
+		default_option = yes
+		add_loyalists = {
+			value = 0.5
+		}
+		ruler = {
+			add_modifier = {
+				name = benelux_unifier_ruler
+			}
+		}
+	}
+	option = {
+		name = rombul_unification.2.b
+		default_option = yes
+		add_loyalists = {
+			value = 0.2
+		}
+		add_radicals = {
+			value = -0.8
+		}
+	}
+}
