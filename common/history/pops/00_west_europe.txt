@@ -1127,7 +1127,7 @@
 		}
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN = {
-		region_state:HOL = {
+		region_state:NRS = {
 			create_pop = {
 				culture = north_german
 				size = 374604
@@ -1157,7 +1157,7 @@
 				size = 2000
 			}
 		}
-		region_state:SCH = {
+		region_state:HOL = {
 			create_pop = {
 				culture = north_german
 				size = 200000

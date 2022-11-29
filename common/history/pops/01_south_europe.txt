@@ -547,11 +547,11 @@
 		region_state:ALB = {
 			create_pop = {
 				culture = albanian
-				size = 1004808
+				size = 1000808
 			}
 			create_pop = {
 				culture = greek
-				size = 40000
+				size = 5000
 			}
 			create_pop = {
 				culture = albanian
@@ -562,6 +562,26 @@
 				culture = albanian
 				religion = orthodox
 				size = 91200
+			}
+		}
+ 		region_state:EPR = {
+			create_pop = {
+				culture = albanian
+				size = 40808
+			}
+			create_pop = {
+				culture = greek
+				size = 39000
+			}
+			create_pop = {
+				culture = albanian
+				religion = catholic
+				size = 20200
+			}
+			create_pop = {
+				culture = albanian
+				religion = orthodox
+				size = 17200
 			}
 		}
 	}

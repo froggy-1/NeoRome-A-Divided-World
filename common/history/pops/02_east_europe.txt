@@ -439,7 +439,7 @@
 		}
 	}
 	s:STATE_ESTONIA = {
-		region_state:SWE = {
+		region_state:SWP = {
 			create_pop = {
 				culture = estonian
 				size = 573800
@@ -459,7 +459,7 @@
 		}
 	}
 	s:STATE_LATVIA = {
-		region_state:SWE = {
+		region_state:SWP = {
 			create_pop = {
 				culture = latvian
 				size = 827496
@@ -506,7 +506,7 @@
 		}
 	}
 	s:STATE_LITHUANIA = {
-		region_state:SWE = {
+		region_state:SWP = {
 			create_pop = {
 				culture = polish
 				size = 51796
@@ -960,7 +960,7 @@
 		}
 	}
 	s:STATE_WEST_SLOVAKIA = {
-		region_state:HUN = {
+		region_state:AUS = {
 			create_pop = {
 				culture = hungarian
 				size = 237000
