@@ -19,38 +19,54 @@
 			type = puppet
 		}
 	}
+	c:MNG = {
+		create_diplomatic_pact = {
+			country = c:FRS
+			type = vassal
+		}
+	}
+	c:KZA = {
+		create_diplomatic_pact = {
+			country = c:CHC
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:CIR
+			type = puppet
+		}		
+	}
 	c:MGL = {
 		create_diplomatic_pact = {
 			country = c:SIB
-			type = vassal
+			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:YAK
-			type = vassal
+			type = puppet
 		}	
 		create_diplomatic_pact = {
 			country = c:PRM
-			type = vassal
+			type = puppet
 		}	
 		create_diplomatic_pact = {
 			country = c:IUS
-			type = vassal
+			type = puppet
 		}	
 		create_diplomatic_pact = {
 			country = c:BUK
-			type = vassal
+			type = puppet
 		}	
 		create_diplomatic_pact = {
 			country = c:KHI
-			type = vassal
+			type = puppet
 		}	
 		create_diplomatic_pact = {
 			country = c:KOK
-			type = vassal
+			type = puppet
 		}	
 		create_diplomatic_pact = {
 			country = c:XIN
-			type = vassal
+			type = puppet
 		}	
 	}
 	c:AUS = {
@@ -299,7 +315,7 @@
 			type = puppet
 		}
 	}
-	c:TUR = {
+	c:KAR = {
 		create_diplomatic_pact = {
 			country = c:MAC
 			type = puppet
