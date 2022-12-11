@@ -69,17 +69,13 @@
 			type = puppet
 		}	
 	}
-	c:AUS = {
+	c:ABH = {
 		create_diplomatic_pact = {
 			country = c:VEN
 			type = puppet
 		}
 		create_diplomatic_pact = {
-			country = c:LOM
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = LOR
+			country = c:LOR
 			type = puppet
 		}	
 		create_diplomatic_pact = {
@@ -122,7 +118,7 @@
 	c:HAN = {
 		create_diplomatic_pact = {
 			country = c:SAX
-			type = personal_union
+			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:ANH
