@@ -1,0 +1,203 @@
+ROB = {
+    pattern = "pattern_vertical_split_01.tga"
+    color1 = "red"
+    color2 = "white"
+
+    colored_emblem = {
+        texture = "ce_tricolor_horizontal.dds"
+        color1 = "yellow"
+        color2 = "blue"
+
+        mask = { 1 }
+    }
+
+    colored_emblem = {
+        texture = "ce_tricolor_horizontal.dds"
+        color1 = "green"
+        color2 = "red"
+
+        mask = { 2 }
+    }
+}
+
+ROB_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_solid.dds" # Regular Border
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }	
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }		
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
+	}	
+}
+
+ETS = {
+	pattern = "pattern_solid.tga"
+    	color1 = "blue"
+
+	colored_emblem = {
+    		texture = "ce_stripes_10.dds"
+    		color1 = "white"
+	}
+}
+
+
+LIG = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+   		texture = "ce_cross_england_fimbriated.dds"
+    		color1 = "red"
+    		color2 = "blue"
+	}
+}
+
+BAB = {
+    pattern = "pattern_solid.tga"
+    color1 = "purple"
+
+    colored_emblem = {
+        texture = "ce_tricolor_horizontal.dds"
+        color1 = "white"
+        color2 = "red"
+    }
+}
+
+LTH = {
+    pattern = "pattern_solid.tga"
+    color1 = "yellow"
+
+    colored_emblem = {
+        texture = "ce_cross_pointed.dds"
+        color1 = "red"
+    }
+    colored_emblem = {
+        texture = "ce_circle.dds"
+        color1 = "blue"
+	instance = { scale = { 0.2 0.2 } position = { 0.75 0.75 } }	
+    }
+    colored_emblem = {
+        texture = "ce_circle.dds"
+        color1 = "blue"
+	instance = { scale = { 0.2 0.2 } position = { 0.25 0.75 } }	
+    }
+    colored_emblem = {
+        texture = "ce_circle.dds"
+        color1 = "blue"
+	instance = { scale = { 0.2 0.2 } position = { 0.75 0.25 } }	
+    }
+    colored_emblem = {
+        texture = "ce_circle.dds"
+        color1 = "blue"
+	instance = { scale = { 0.2 0.2 } position = { 0.25 0.25 } }	
+    }
+}
+
+NRS = {
+    pattern = "pattern_solid.tga"
+    color1 = "white"
+
+    colored_emblem = {
+        texture = "ce_cross_norway.dds"
+        color1 = "blue"
+        color2 = "red"
+    }
+}
+
+BNL = {
+    pattern = "pattern_solid.tga"
+    color1 = "orange"
+
+    colored_emblem = {
+        texture = "ce_tricolor_horizontal.dds"
+        color1 = "white"
+        color2 = "blue"
+    }
+}
+
+GSX = {
+    pattern = "pattern_solid.tga"
+    color1 = "black"
+
+    colored_emblem = {
+        texture = "ce_tricolor_horizontal.dds"
+        color1 = "white"
+        color2 = "yellow"
+    }
+}
+
+NSG = {
+    pattern = "pattern_solid.tga"
+    color1 = "yellow"
+
+    colored_emblem = {
+        texture = "ce_cross_norway.dds"
+        color1 = "black"
+        color2 = "white"
+    }
+}
+
+GAE = {
+    pattern = "pattern_solid.tga"
+    color1 = "dark_blue"
+
+    colored_emblem = {
+        texture = "ce_cross_england.dds"
+        color1 = "white"
+    }
+}
+
+SWP = {
+    pattern = "pattern_vertical_split_01.tga"
+    color1 = "blue"
+    color2 = "red"
+
+    colored_emblem = {
+        texture = "ce_tricolor_horizontal.dds"
+        color1 = "yellow"
+        color2 = "blue"
+
+        mask = { 1 }
+    }
+
+    colored_emblem = {
+        texture = "ce_tricolor_horizontal.dds"
+        color1 = "white"
+        color2 = "red"
+
+        mask = { 2 }
+    }
+    colored_emblem = {
+        texture = "ce_crown_swedish.dds"
+        color1 = "white"
+	instance = { scale = { 0.5 0.5 } position = { 0.25 0.15 } }	
+    }
+}
+
+
+ABH = {
+    pattern = "pattern_vertical_split_01.tga"
+    color1 = "red"
+    color2 = "red"
+
+    colored_emblem = {
+        texture = "ce_tricolor_horizontal.dds"
+        color1 = "white"
+        color2 = "red"
+
+        mask = { 1 }
+    }
+
+    colored_emblem = {
+        texture = "ce_tricolor_horizontal.dds"
+        color1 = "white"
+        color2 = "light_blue"
+
+        mask = { 2 }
+    }
+}
