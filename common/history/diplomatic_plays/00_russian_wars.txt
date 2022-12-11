@@ -1,0 +1,35 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:RUS = {
+		create_diplomatic_play = {
+			name = "Tatar wars"
+		
+			target_state = s:STATE_KAZAN.region_state:IUS
+			
+			war = yes
+			
+			type = dp_annex_war		
+		}	
+	}
+	c:RUS = {
+		create_diplomatic_play = {
+			name = "Bolgar wars"
+		
+			target_state = s:STATE_ASTRAKHAN.region_state:KZA
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+	c:RUS = {
+		create_diplomatic_play = {
+			name = "Ural wars"
+		
+			target_state = s:STATE_PERM.region_state:PRM
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
+}

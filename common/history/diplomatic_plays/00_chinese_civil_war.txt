@@ -18,9 +18,9 @@
 	}
 	c:CHI = {
 		create_diplomatic_play = {
-			name = "Tuning war of independence"
+			name = "South Chinese wars"
 		
-			target_state = s:STATE_FORMOSA.region_state:FRS
+			target_state = s:STATE_YUNNAN.region_state:MNG
 			
 			war = yes
 			
@@ -29,9 +29,9 @@
 	}
 	c:TPG = {
 		create_diplomatic_play = {
-			name = "Tuning war of independence"
+			name = "South Chinese wars"
 		
-			target_state = s:STATE_FORMOSA.region_state:FRS
+			target_state = s:STATE_YUNNAN.region_state:MNG
 			
 			war = yes
 			
@@ -40,7 +40,7 @@
 	}
 	c:CHI = {
 		create_diplomatic_play = {
-			name = "Mongol war of independence"
+			name = "Sino-Mongol war"
 		
 			target_state = s:STATE_URGA.region_state:MGL
 			
