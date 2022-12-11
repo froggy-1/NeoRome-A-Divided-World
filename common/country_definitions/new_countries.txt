@@ -211,7 +211,7 @@ RUR = {
 ### Copt Egypt ###
 
 CPT = {
-	color = { 202  202  45 }
+	color = { 202  202  95 }
 	
 	country_type = unrecognized
 	
@@ -219,4 +219,44 @@ CPT = {
 	
 	cultures = { misri }
 	capital = STATE_UPPER_EGYPT
+}
+
+### South China ###
+
+MNG = {
+	color = { 192  212  105 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { han yue }
+	capital = STATE_GUANGDONG
+}
+
+
+### Oghur Kaghan ###
+
+KZA = {
+	color = { 75  70  125 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { Kalmyk tatar mongol }
+	capital = STATE_ASTRAKHAN
+}
+
+### Qaramanid Empire ###
+
+KAR = {
+	color = { 170  175  205 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { turkish }
+	capital = STATE_ADANA
 }
