@@ -2057,6 +2057,29 @@ VIR = { # New Sweden
 	}
 }
 
+
+
+VIR = { # New Sweden
+	dynamic_country_name = {
+		name = dyn_c_new_sweden2
+		adjective = dyn_c_new_sweden2_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:SSWP
+			c:SWP = {
+				has_diplomatic_pact = {
+					who = c:VIR
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
 NWY = { # New Holland
 	dynamic_country_name = {
 		name = dyn_c_new_holland
@@ -2139,6 +2162,83 @@ UGE = { # New Gaelic
 					is_initiator = yes
 				}
 			}
+		}
+	}
+}
+
+### alt empire names ###
+
+
+
+MGL = { # Yuan
+	dynamic_country_name = {
+		name = dyn_c_yuan
+		adjective = dyn_c_yuan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+    			exists = scope:actor
+    			scope:actor = {
+				OR = {
+					owns_entire_state_region = STATE_NORTHERN_MANCHURIA
+					owns_entire_state_region = STATE_TRANS_BAIKAL
+				}
+			}
+		}
+	}
+}
+
+
+CHI = { # China
+	dynamic_country_name = {
+		name = dyn_c_china
+		adjective = dyn_c_china_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+    			exists = scope:actor
+    			scope:actor = {
+        			OR = {
+					exists = c:MGL
+					exists = c:MNG
+					NOT = { 
+						owns_entire_state_region = STATE_URGA 
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+RUS = { # Ruthenian Empire
+	dynamic_country_name = {
+		name = dyn_c_ruth
+		adjective = dyn_c_ruth_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+    			exists = scope:actor
+    			scope:actor = {
+        			OR = {
+            				owns_entire_state_region = STATE_KIEV
+           				owns_entire_state_region = STATE_MINSK
+            				owns_entire_state_region = STATE_MOSCOW 
+
+           				NOT = {
+                				owns_entire_state_region = STATE_TOMSK
+                				owns_entire_state_region = STATE_KAZAN
+                				owns_entire_state_region = STATE_PERM
+                				exists = c:IUS
+            				}
+        			}
+    			}
 		}
 	}
 }
