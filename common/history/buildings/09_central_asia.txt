@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_DAGESTAN={
-		region_state:NCA={
+		region_state:KZA={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -36,7 +36,7 @@
 		}
 	}
 	s:STATE_KUBAN={
-		region_state:NCA={
+		region_state:KZA={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -88,7 +88,7 @@
 		}
 	}
 	s:STATE_AZERBAIJAN={
-		region_state:NCA={
+		region_state:PER={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -104,7 +104,7 @@
 		}
 	}
 	s:STATE_GREATER_CAUCASUS={
-		region_state:NCA={
+		region_state:KZA={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -210,7 +210,7 @@
 		}
 	}
 	s:STATE_ASTRAKHAN={
-		region_state:IUS={
+		region_state:KZA={
 			create_building={
 				building="building_livestock_ranch"
 				level=1

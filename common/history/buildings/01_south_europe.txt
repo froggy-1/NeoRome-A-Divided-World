@@ -1710,7 +1710,7 @@
 		}
 	}
 	s:STATE_EASTERN_THRACE={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -1888,7 +1888,7 @@
 		}
 	}
 	s:STATE_NORTHERN_THRACE={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=2
@@ -1956,7 +1956,7 @@
 		}
 	}
 	s:STATE_SLOVENIA={
-		region_state:AUS={
+		region_state:ABH={
 			create_building={
 				building="building_wheat_farm"
 				level=3
@@ -2012,7 +2012,7 @@
 		}
 	}
 	s:STATE_CROATIA={
-		region_state:AUS={
+		region_state:ABH={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -2086,7 +2086,7 @@
 		}
 	}
 	s:STATE_ISTRIA={
-		region_state:AUS={
+		region_state:ABH={
 			create_building={
 				building="building_tooling_workshops"
 				level=3
@@ -2120,7 +2120,7 @@
 		}
 	}
 	s:STATE_MONTENEGRO={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -2220,7 +2220,7 @@
 		}
 	}
 	s:STATE_EAST_AEGEAN_ISLANDS={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -2308,7 +2308,7 @@
 		}
 	}
 	s:STATE_SKOPIA={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_iron_mine"
 				level=1

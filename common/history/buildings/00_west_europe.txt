@@ -2721,7 +2721,7 @@
 		}
 	}
 	s:STATE_AUSTRIA={
-		region_state:AUS={
+		region_state:ABH={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -2779,7 +2779,7 @@
 		}
 	}
 	s:STATE_BOHEMIA={
-		region_state:AUS={
+		region_state:ABH={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -2849,7 +2849,7 @@
 		}
 	}
 	s:STATE_MORAVIA={
-		region_state:AUS={
+		region_state:ABH={
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -2889,7 +2889,7 @@
 		}
 	}
 	s:STATE_STYRIA={
-		region_state:AUS={
+		region_state:ABH={
 			create_building={
 				building="building_iron_mine"
 				level=3
@@ -2923,7 +2923,7 @@
 		}
 	}
 	s:STATE_TYROL={
-		region_state:AUS={
+		region_state:ABH={
 			create_building={
 				building="building_iron_mine"
 				level=2
@@ -2945,7 +2945,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL={
-		region_state:AUS={
+		region_state:ABH={
 			create_building={
 				building="building_wheat_farm"
 				level=1

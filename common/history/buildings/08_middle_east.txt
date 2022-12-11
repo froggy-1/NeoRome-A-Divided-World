@@ -141,7 +141,7 @@
 		}
 	}
 	s:STATE_CYPRUS={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -254,7 +254,7 @@
 		}
 	}
 	s:STATE_ALEPPO={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_glassworks"
 				level=2
@@ -294,7 +294,7 @@
 		}
 	}
 	s:STATE_BAGHDAD={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -322,7 +322,7 @@
 		}
 	}
 	s:STATE_MOSUL={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -338,7 +338,7 @@
 		}
 	}
 	s:STATE_DEIR_EZ_ZOR={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -684,7 +684,7 @@
 		}
 	}
 	s:STATE_HUDAVENDIGAR={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -742,7 +742,7 @@
 		}
 	}
 	s:STATE_AYDIN={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -806,7 +806,7 @@
 		}
 	}
 	s:STATE_KONYA={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_cotton_plantation"
 				level=2
@@ -840,7 +840,7 @@
 		}
 	}
 	s:STATE_KASTAMONU={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_tea_plantation"
 				level=5
@@ -862,7 +862,7 @@
 		}
 	}
 	s:STATE_DIYARBAKIR={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -890,7 +890,7 @@
 		}
 	}
 	s:STATE_ADANA={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -1016,7 +1016,7 @@
 		}
 	}
 	s:STATE_ANKARA={
-		region_state:TUR={
+		region_state:KAR={
 			create_building={
 				building="building_government_administration"
 				level=3

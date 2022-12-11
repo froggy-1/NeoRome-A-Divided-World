@@ -72,11 +72,11 @@
 		}
 	}
 	s:STATE_TRANS_BAIKAL={
-		region_state:SIB={
+		region_state:MGL={
 		}
 	}
 	s:STATE_IRKUTSK={
-		region_state:SIB={
+		region_state:MGL={
 		}
 	}
 }
