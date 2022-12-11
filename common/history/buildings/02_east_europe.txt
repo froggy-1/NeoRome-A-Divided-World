@@ -694,7 +694,7 @@
 		}
 	}
 	s:STATE_SILESIA={
-		region_state:PRU={
+		region_state:ABH={
 			create_building={
 				building="building_textile_mills"
 				level=8
