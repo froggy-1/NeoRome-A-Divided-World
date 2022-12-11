@@ -76,7 +76,7 @@
 		}
 	}
 	s:STATE_YUNNAN = {
-		region_state:FRS = {
+		region_state:MNG = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 3778092
@@ -114,7 +114,7 @@
 		}
 	}
 	s:STATE_GUIZHOU = {
-		region_state:FRS = {
+		region_state:MNG = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 3188452
@@ -143,7 +143,7 @@
 		}
 	}
 	s:STATE_SHAOZHOU = {
-		region_state:FRS = {
+		region_state:MNG = {
 			create_pop = {
 				culture = yue
 				size = 3781992
@@ -191,7 +191,7 @@
 		}
 	}
 	s:STATE_GUANGXI = {
-		region_state:FRS = {
+		region_state:MNG = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 7306504
@@ -249,7 +249,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA = {
-		region_state:CHI = {
+		region_state:MGL = {
 			create_pop = {
 				culture = manchu
 				size = 1303996
@@ -265,7 +265,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA = {
-		region_state:CHI = {
+		region_state:MGL = {
 			create_pop = {
 				culture = manchu
 				size = 5210800
@@ -285,7 +285,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:CHI = {
+		region_state:MGL = {
 			create_pop = {
 				culture = manchu
 				size = 2821200
@@ -423,7 +423,7 @@
 		}
 	}
 	s:STATE_GUANGDONG = {
-		region_state:FRS = {
+		region_state:MNG = {
 			create_pop = {
 				culture = yue
 				size = 9748000

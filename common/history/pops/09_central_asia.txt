@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_DAGESTAN = {
-		region_state:NCA = {
+		region_state:KZA = {
 			create_pop = {
 				culture = north_caucasian
 				size = 271100
@@ -32,7 +32,7 @@
 		}
 	}
 	s:STATE_KUBAN = {
-		region_state:NCA = {
+		region_state:KZA = {
 			create_pop = {
 				culture = north_caucasian
 				size = 528804
@@ -91,7 +91,7 @@
 		}
 	}
 	s:STATE_AZERBAIJAN = {
-		region_state:NCA = {
+		region_state:PER = {
 			create_pop = {
 				culture = azerbaijani
 				size = 172100
@@ -124,7 +124,7 @@
 		}
 	}
 	s:STATE_GREATER_CAUCASUS = {
-		region_state:NCA = {
+		region_state:KZA = {
 			create_pop = {
 				culture = georgian
 				size = 491996
@@ -218,7 +218,7 @@
 		}
 	}
 	s:STATE_ASTRAKHAN = {
-		region_state:IUS = {
+		region_state:KZA = {
 			create_pop = {
 				culture = kalmyk
 				size = 795208

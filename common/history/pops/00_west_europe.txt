@@ -853,7 +853,7 @@
 		}
 	}
 	s:STATE_AUSTRIA = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = south_german
 				size = 1964404
@@ -879,7 +879,7 @@
 		}
 	}
 	s:STATE_BOHEMIA = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = south_german
 				size = 1499608
@@ -896,7 +896,7 @@
 		}
 	}
 	s:STATE_MORAVIA = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = south_german
 				size = 480408
@@ -917,7 +917,7 @@
 		}
 	}
 	s:STATE_STYRIA = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = south_german
 				size = 664796
@@ -929,7 +929,7 @@
 		}
 	}
 	s:STATE_TYROL = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = south_german
 				size = 559304
@@ -937,7 +937,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = south_german
 				size = 174100

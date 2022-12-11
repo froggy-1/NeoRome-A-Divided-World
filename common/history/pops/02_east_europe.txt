@@ -394,7 +394,7 @@
 		}
 	}
 	s:STATE_ROSTOV = {
-		region_state:IUS = {
+		region_state:KZA = {
 			create_pop = {
 				culture = ukrainian
 				size = 356600
@@ -723,7 +723,7 @@
 		}
 	}
 	s:STATE_WEST_GALICIA = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = polish
 				size = 1240004
@@ -775,7 +775,7 @@
 				size = 180000
 			}
 		}
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = polish
 				size = 442800
@@ -960,7 +960,7 @@
 		}
 	}
 	s:STATE_WEST_SLOVAKIA = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = hungarian
 				size = 237000
@@ -993,7 +993,7 @@
 		}
 	}
 	s:STATE_EAST_SLOVAKIA = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = hungarian
 				size = 150848

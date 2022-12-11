@@ -460,7 +460,7 @@
 		}
 	}
 	s:STATE_EASTERN_THRACE = {
-		region_state:TUR = {
+		region_state:KAR = {
 			create_pop = {
 				culture = turkish
 				size = 832996
@@ -606,7 +606,7 @@
 		}
 	}
 	s:STATE_NORTHERN_THRACE = {
-		region_state:TUR = {
+		region_state:KAR = {
 			create_pop = {
 				culture = turkish
 				size = 273408
@@ -647,7 +647,7 @@
 		}
 	}
 	s:STATE_SLOVENIA = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = slovene
 				size = 464400
@@ -675,7 +675,7 @@
 		}
 	}
 	s:STATE_CROATIA = {
-		region_state:AUS = {
+		region_state:ABH = {
 			create_pop = {
 				culture = croat
 				size = 563592
@@ -827,7 +827,7 @@
 	}
 
 	s:STATE_EAST_AEGEAN_ISLANDS = {
-		region_state:TUR = {
+		region_state:KAR = {
 			create_pop = {
 				culture = turkish
 				size = 8992
@@ -942,7 +942,7 @@
 		}
 	}
 	s:STATE_WESTERN_THRACE = {
-		region_state:TUR = {
+		region_state:KAR = {
 			create_pop = {
 				culture = turkish
 				size = 274808

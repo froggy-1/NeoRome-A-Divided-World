@@ -201,7 +201,7 @@
 
 
 	s:STATE_TRANS_BAIKAL = {
-		region_state:SIB = {
+		region_state:MGL = {
 			create_pop = {
 				culture = russian
 				size = 122000
@@ -225,7 +225,7 @@
 		}
 	}
 	s:STATE_IRKUTSK = {
-		region_state:SIB = {
+		region_state:MGL = {
 			create_pop = {
 				culture = russian
 				size = 388408
