@@ -58,10 +58,10 @@ PRU = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { north_german }
-	capital = STATE_BRANDENBURG
+	capital = STATE_EAST_PRUSSIA
 }
 
 WES = {
