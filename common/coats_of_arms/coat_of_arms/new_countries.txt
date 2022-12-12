@@ -367,3 +367,15 @@ KAR = {
 	}
 
 }
+
+PRU_teutonic_order = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "black"
+
+	colored_emblem = {
+		texture = "ce_cross_sweden.dds"
+		color1 = color2
+		color2 = color2
+	}
+}
