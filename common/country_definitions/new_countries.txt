@@ -245,6 +245,7 @@ KZA = {
 	tier = empire
 	
 	cultures = { Kalmyk tatar mongol }
+	religion = jewish
 	capital = STATE_ASTRAKHAN
 }
 
