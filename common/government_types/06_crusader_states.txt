@@ -1,0 +1,28 @@
+﻿gov_teutonic_order = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_GRAND_MASTER"
+	female_ruler = "RULER_TITLE_GRAND_MASTER"
+
+	male_heir = "" # Empty on purpose
+	female_heir = "" # Empty on purpose
+	
+	possible = {
+		exists = c:PRU
+		c:PRU = ROOT
+		OR = {
+			AND = {
+				has_law = law_type:law_theocracy
+                        }
+			AND = {
+				has_law = law_type:law_oligarchy
+                                has_law = law_type:law_state_religion
+
+                        }
+		}
+	}
+}
+
+
+
+
