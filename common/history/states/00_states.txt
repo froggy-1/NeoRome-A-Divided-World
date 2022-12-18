@@ -3154,7 +3154,7 @@ STATES = {
 			owned_provinces = { x587297 xF54C13 }
 		}
 		create_state = {
-			country = c:HAN
+			country = c:GSX
 			owned_provinces = { x418061 x392FDA xC080E0 xA5E2E8 x7C8FD3 xC08061 x68BE66 }
 		}
 		
@@ -3297,7 +3297,7 @@ STATES = {
 			owned_provinces = { x41C021 xC041A0 }
 		}
 		create_state = {
-			country = c:HAN
+			country = c:GSX
 			owned_provinces = { xC0C021 x4141A0 x5A48A2 }
 		}
 		
@@ -6698,7 +6698,7 @@ STATES = {
 	}
 	s:STATE_WESTPHALIA = {
 		create_state = {
-			country = c:HAN
+			country = c:GSX
 			owned_provinces = { x0180E0 x1DD141 xA08061 x218061 x418021 x4101A0 x910095 x9F0060 x1BA4F6 }
 		}		
 		
@@ -6706,7 +6706,7 @@ STATES = {
 	}
 	s:STATE_ANHALT = {
 		create_state = {
-			country = c:ANH
+			country = c:GSX
 			owned_provinces = { xA080E0 x12694A x618061 xCF5D8E x34386E xCBA4A5 xE0C0A0 xA51232 x3C9B93 x8A448C xED8F7B }
 		}
 		
@@ -6753,7 +6753,7 @@ STATES = {
 	}
 	s:STATE_SILESIA = {
 		create_state = {
-			country = c:ABH
+			country = c:SRB
 			owned_provinces = { xC108EA x732DC0 x6E617F x1B72C9 x272E48 xC00121 xCE74AB x94D624 xAF9F20 x88194B x90B12B x821F52 x5E9091 x7B2F62 }
 		}
 		
@@ -6762,7 +6762,7 @@ STATES = {
 	}
 	s:STATE_BRANDENBURG = {
 		create_state = {
-			country = c:PRU
+			country = c:GSX
 			owned_provinces = { xA65DA6 x83B1A8 x9B9076 xA040A0 x069CFB xF8D457 x61C0A0 x82F9A8 x9E7304 x76EF4E xDF4020 x28CEC2 xB90BFF x514C51 xF77289 x60BF20 }
 		}
 		
@@ -6791,7 +6791,7 @@ STATES = {
 			owned_provinces = { x118060 x100060 xC541D2 x8F0060 xDBB84C }
 		}
 		create_state = {
-			country = c:PRU
+			country = c:GSX
 			owned_provinces = { x908060 }
 		}
 		
@@ -6811,7 +6811,7 @@ STATES = {
 			owned_provinces = { xECC3B4 xC00161 x4101E0 }
 		}
 		create_state = {
-			country = c:HAN
+			country = c:GSX
 			owned_provinces = { x165E05 x694B91 xBBA504 xBF00DF x4D62A0 x8080E0 x784B8E xF9DCA2 }
 		}
 		
@@ -6835,11 +6835,11 @@ STATES = {
 	}
 	s:STATE_SAXONY = {
 		create_state = {
-			country = c:SAX
+			country = c:SRB
 			owned_provinces = { x169073 x795368 x917939 xAFDFBF x43CE26 x614121 x31E0C0 }
 		}
 		create_state = {
-			country = c:WEI
+			country = c:GSX
 			owned_provinces = { x5141A0 xD0C021 xC00A37 x66FE0A x51C021 }
 		}
 				
@@ -6848,7 +6848,7 @@ STATES = {
 	}
 	s:STATE_BRUNSWICK = {	
 		create_state = {
-			country = c:HAN
+			country = c:GSX
 			owned_provinces = { xA001E0 x2180E0 x4C16EA xA61E6E x43D537 }
 		}	
 		
@@ -6961,7 +6961,7 @@ STATES = {
 			owned_provinces = { xD8F441 xE080A0 x4545BE x12E54F x24CA48 }
 		}
 		create_state = {
-			country = c:PRU
+			country = c:GSX
 			owned_provinces = { xE041A0 xD9A469 }
 		}		
 		
