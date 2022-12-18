@@ -770,7 +770,7 @@
 				size = 500
 			}
 		}
-		region_state:HAN = {
+		region_state:GSX = {
 			create_pop = {
 				culture = dutch
 				size = 272400
@@ -981,7 +981,7 @@
 				size = 4000
 			}
 		}
-		region_state:HAN = {
+		region_state:GSX = {
 			create_pop = {
 				culture = north_german
 				size = 196404
@@ -1019,7 +1019,7 @@
 		}
 	}
 	s:STATE_WESTPHALIA = {
-		region_state:HAN = {
+		region_state:GSX = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1036,7 +1036,7 @@
 		}		
 	}
 	s:STATE_ANHALT = {
-		region_state:ANH = {
+		region_state:GSX = {
 			create_pop = {
 				culture = north_german
 				size = 3006400
@@ -1106,7 +1106,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG = {
-		region_state:PRU = {
+		region_state:GSX = {
 			create_pop = {
 				culture = north_german
 				size = 1558704
@@ -1180,7 +1180,7 @@
 				size = 604068
 			}
 		}
-		region_state:PRU = {
+		region_state:GSX = {
 			create_pop = {
 				culture = south_german
 				religion = protestant
@@ -1210,7 +1210,7 @@
 		}
 	}
 	s:STATE_HANNOVER = {
-		region_state:HAN = {
+		region_state:GSX = {
 			create_pop = {
 				culture = north_german
 				size = 910696
@@ -1246,7 +1246,7 @@
 		}
 	}
 	s:STATE_BRUNSWICK = {
-		region_state:HAN = {
+		region_state:GSX = {
 			create_pop = {
 				culture = north_german
 				size = 620400
@@ -1293,7 +1293,7 @@
 		}
 	}
 	s:STATE_SAXONY = {
-		region_state:SAX = {
+		region_state:SRB = {
 			create_pop = {
 				culture = north_german
 				size = 1453212
@@ -1317,7 +1317,7 @@
 				size = 50106
 			}
 		}
-		region_state:WEI = {
+		region_state:GSX = {
 			create_pop = {
 				culture = north_german
 				size = 533000
@@ -1376,7 +1376,7 @@
 				size = 3996
 			}
 		}
-		region_state:PRU = {
+		region_state:GSX = {
 			create_pop = {
 				culture = north_german
 				size = 85002
