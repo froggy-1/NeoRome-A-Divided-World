@@ -27,7 +27,7 @@ POPS = {
 		}
 	}
 	s:STATE_GUAYANA = {
-		region_state:NET = {
+		region_state:SPA = {
 			create_pop = {
 				culture = afro_caribbean
 				religion = animist
@@ -46,7 +46,7 @@ POPS = {
 				size = 12000
 			}
 		}
-		region_state:FRA = {
+		region_state:NRS = {
 			create_pop = {
 				culture = french
 				size = 1592
@@ -147,7 +147,7 @@ POPS = {
 		}
 	}
 	s:STATE_ANTIOQUIA = {
-		region_state:CLM = {
+		region_state:DRZ = {
 			create_pop = {
 				culture = north_andean
 				size = 269804
@@ -173,7 +173,7 @@ POPS = {
 		}
 	}
 	s:STATE_GUAVIARE = {
-		region_state:CLM = {
+		region_state:DRZ = {
 			create_pop = {
 				culture = amazonian
 				size = 88000
@@ -194,7 +194,7 @@ POPS = {
 		}
 	}
 	s:STATE_CUNDINAMARCA = {
-		region_state:CLM = {
+		region_state:DRZ = {
 			create_pop = {
 				culture = north_andean
 				size = 463396
@@ -216,7 +216,7 @@ POPS = {
 		}
 	}
 	s:STATE_CAUCA = {
-		region_state:CLM = {
+		region_state:DRZ = {
 			create_pop = {
 				culture = north_andean
 				size = 164400
@@ -821,7 +821,7 @@ POPS = {
 		}
 	}
 	s:STATE_AMAZONAS = {
-		region_state:CLM = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = amazonian
 				size = 12000
@@ -831,7 +831,7 @@ POPS = {
 				size = 210
 			}
 		}
-		region_state:PRA = {
+		region_state:LVN = {
 			create_pop = {
 				culture = amazonian
 				size = 36800
@@ -868,7 +868,7 @@ POPS = {
 				size = 4000
 			}
 		}
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 4278 # 1828 census
@@ -914,7 +914,7 @@ POPS = {
 		}
 	}
 	s:STATE_PARANA = { # Parana, 1830. 36566 total.
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 20444
@@ -931,7 +931,7 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_CATARINA = { # 1836 estimate. 61753 total.
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 35582
@@ -948,7 +948,7 @@ POPS = {
 		}
 	}
 	s:STATE_SAO_PAULO = {
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 172879 # 1836 census
@@ -969,7 +969,7 @@ POPS = {
 		}
 	}
 	s:STATE_MINAS_GERAIS = {
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 367304
@@ -986,7 +986,7 @@ POPS = {
 		}
 	}
 	s:STATE_RIO_DE_JANEIRO = {
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 647988
@@ -1003,7 +1003,7 @@ POPS = {
 		}
 	}
 	s:STATE_BAHIA = {
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 335500
@@ -1020,7 +1020,7 @@ POPS = {
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_NORTE = { # Rio Grande do Norte, 1835 estimate. Total population of 87948.
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 29902
@@ -1041,7 +1041,7 @@ POPS = {
 		}
 	}
 	s:STATE_CEARA = { # Ceara, 1835 estimate. Total population of 211451
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 69779
@@ -1062,7 +1062,7 @@ POPS = {
 		}
 	}
 	s:STATE_PIAUI = { # Piaui, 1835 estimate. Total population of 94932.
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 31839
@@ -1083,7 +1083,7 @@ POPS = {
 		}
 	}
 	s:STATE_PERNAMBUCO = { # Pernambuco proper (1829) + Alagoas (1849), Sergipe (1849), and Paraiba (estimate from average of 1811 and 1872 censii)
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 234140
@@ -1104,7 +1104,7 @@ POPS = {
 		}
 	}
 	s:STATE_PARAIBA = { # Paraiba, 1835 estimate. Total population of 135764.
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 45114
@@ -1125,7 +1125,7 @@ POPS = {
 		}
 	}
 	s:STATE_MARANHAO = {
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 42595 
@@ -1146,7 +1146,7 @@ POPS = {
 		}
 	}
 	s:STATE_GOIAS = { # total ballpark figure: 73918
-		region_state:BRZ = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 21921
@@ -1168,7 +1168,7 @@ POPS = {
 	}
 	s:STATE_PARA = {
 
-		region_state:PRA = {
+		region_state:LVN = {
 			create_pop = {
 				culture = brazilian
 				size = 111297
