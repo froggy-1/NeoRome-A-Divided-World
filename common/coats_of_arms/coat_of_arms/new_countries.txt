@@ -379,3 +379,53 @@ PRU_teutonic_order = {
 		color2 = color2
 	}
 }
+
+
+
+IBZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "yellow"
+	}
+
+	colored_emblem = {
+		texture = "ce_letter_g.dds"
+		color1 = "black"
+		instance = { scale = { 0.4 0.4 } position = { 0.3 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_letter_c.dds"
+		color1 = "black"
+		instance = { scale = { 0.4 0.4 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_letter_w.dds"
+		color1 = "black"
+		instance = { scale = { 0.4 0.4 } position = { 0.7 0.5 } }
+	}
+
+}
+
+
+DRZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "light_blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "green"
+	}
+
+	colored_emblem = {
+		texture = "ce_rising_sun.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+
+}
