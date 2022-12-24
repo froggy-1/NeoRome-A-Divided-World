@@ -208,6 +208,29 @@ RUR = {
 	capital = STATE_URUGUAY
 }
 
+IBZ = {
+	color = { 45  149  8 }
+	
+	country_type = colonial
+	
+	tier = empire
+	
+	cultures = { brazilian }
+	capital = STATE_PERNAMBUCO
+}
+
+DRZ = {
+	color = { 5  75  25 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { central_american north_andean miskito }
+	capital = STATE_PANAMA
+}
+
+
 ### Copt Egypt ###
 
 CPT = {
