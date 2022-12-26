@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_SAN_SALVADOR = {
-		region_state:DRZ = {
+		region_state:UCA = {
 			create_pop = {
 				culture = central_american
 				size = 428204
@@ -8,7 +8,7 @@
 		}
 	}
 	s:STATE_GUATEMALA = {
-		region_state:DRZ = {
+		region_state:UCA = {
 			create_pop = {
 				culture = central_american
 				size = 164404
@@ -18,7 +18,7 @@
 				size = 312000
 			}
 		}
-		region_state:GBR = {
+		region_state:NRS = {
 			create_pop = {
 				culture = afro_caribbean
 				size = 7104
@@ -30,7 +30,7 @@
 		}
 	}
 	s:STATE_HONDURAS = {
-		region_state:DRZ = {
+		region_state:UCA = {
 			create_pop = {
 				culture = central_american
 				size = 385204
