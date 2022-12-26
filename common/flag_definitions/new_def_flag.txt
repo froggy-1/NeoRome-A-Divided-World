@@ -1,0 +1,18 @@
+﻿ITA = { # Italy
+	flag_definition = {
+		coa = ITA_roman_empire ### no theocratic papal state
+		subject_canton = ITA_roman_empire 
+		priority = 15
+		
+		trigger = {
+			NOT = { exists = c:PAP } # Can't be Pope if the Pope is still in control of another country!
+			coa_def_republic_flag_trigger = yes
+			capital = { 
+				OR = {
+					state_region = s:STATE_LAZIO
+					state_region = s:STATE_ROMAGNA 
+				}
+			}
+		}
+	}
+}
