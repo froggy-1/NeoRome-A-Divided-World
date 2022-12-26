@@ -992,7 +992,7 @@
 		}
 	}
 	s:STATE_KARS={
-		region_state:NCA={
+		region_state:GEO={
 			create_building={
 				building="building_livestock_ranch"
 				level=2

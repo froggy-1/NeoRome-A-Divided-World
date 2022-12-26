@@ -104,7 +104,7 @@
 		}
 	}
 	s:STATE_GREATER_CAUCASUS={
-		region_state:KZA={
+		region_state:GEO={
 			create_building={
 				building="building_textile_mills"
 				level=1
