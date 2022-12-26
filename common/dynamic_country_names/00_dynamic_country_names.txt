@@ -2068,7 +2068,7 @@ VIR = { # New Sweden
 		priority = 0
 		
 		trigger = {
-			exists = c:SSWP
+			exists = c:SWP
 			c:SWP = {
 				has_diplomatic_pact = {
 					who = c:VIR
@@ -2239,6 +2239,31 @@ RUS = { # Ruthenian Empire
             				}
         			}
     			}
+		}
+	}
+}
+
+
+ITA = { # Western Rome
+	dynamic_country_name = {
+		name = dyn_c_wre
+		adjective = dyn_c_wre_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+    			exists = scope:actor
+			NOT = { exists = c:PAP } 
+    			scope:actor = {
+				coa_def_republic_flag_trigger = yes
+				capital = { 
+					OR = {
+						owns_entire_state_region = STATE_LAZIO
+						owns_entire_state_region = STATE_ROMAGNA 
+					}
+				}
+			}
 		}
 	}
 }
