@@ -2254,14 +2254,21 @@ ITA = { # Western Rome
 		
 		trigger = {
     			exists = scope:actor
-			NOT = { exists = c:PAP } 
+			NOT = { exists = c:PAP }
+
+			scope:actor = { has_law = law_type:law_republic  }
+
+			scope:actor = { 
+				OR = { 
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+				}
+			}
+
     			scope:actor = {
-				coa_def_republic_flag_trigger = yes
-				capital = { 
-					OR = {
-						owns_entire_state_region = STATE_LAZIO
-						owns_entire_state_region = STATE_ROMAGNA 
-					}
+				OR = {
+					owns_entire_state_region = STATE_LAZIO
+					owns_entire_state_region = STATE_ROMAGNA 
 				}
 			}
 		}
