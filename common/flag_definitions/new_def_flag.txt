@@ -5,12 +5,22 @@
 		priority = 15
 		
 		trigger = {
-			NOT = { exists = c:PAP } # Can't be Pope if the Pope is still in control of another country!
-			coa_def_republic_flag_trigger = yes
-			capital = { 
+			exists = scope:actor
+			NOT = { exists = c:PAP }
+			scope:actor = {
+				has_law = law_type:law_republic
 				OR = {
-					state_region = s:STATE_LAZIO
-					state_region = s:STATE_ROMAGNA 
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+				}
+				ruler = {
+					has_culture = cu:south_italian
+				}
+				capital = { 
+					OR = {
+						state_region = s:STATE_LAZIO
+						state_region = s:STATE_ROMAGNA 
+					}
 				}
 			}
 		}
