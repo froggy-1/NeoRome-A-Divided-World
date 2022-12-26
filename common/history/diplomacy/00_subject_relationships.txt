@@ -115,28 +115,6 @@
 			type = puppet
 		}	
 	}
-	c:HAN = {
-		create_diplomatic_pact = {
-			country = c:SAX
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:ANH
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:WEI
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:HAM
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:OLD
-			type = puppet
-		}
-	}
 	c:NET = {
 		create_diplomatic_pact = {
 			country = c:LUX
@@ -168,6 +146,14 @@
 	c:NRS = {
 		create_diplomatic_pact = {
 			country = c:HOL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HAM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:OLD
 			type = puppet
 		}
 	}
@@ -273,11 +259,6 @@
 			country = c:UNT
 			type = protectorate
 		}
-		# Mosquito Kingdom
-		create_diplomatic_pact = {
-			country = c:MKT
-			type = protectorate
-		}
 	}
 	c:DAI = {
 		create_diplomatic_pact = {
@@ -307,7 +288,7 @@
 	}
 	c:PER = {	
 		create_diplomatic_pact = {
-			country = c:ARM
+			country = c:HSS
 			type = puppet
 		}
 	}
@@ -323,7 +304,15 @@
 		create_diplomatic_pact = {
 			country = c:HDJ
 			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:GEO
+			type = puppet
 		}	
+		create_diplomatic_pact = {
+			country = c:ARM
+			type = puppet
+		}		
 	}
 	c:BIC = {
 		create_diplomatic_pact = {
