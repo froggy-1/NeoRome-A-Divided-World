@@ -1,24 +1,19 @@
 ﻿ITA = { # Italy
 	flag_definition = {
-		coa = ITA_roman_empire ### no theocratic papal state
+		coa = ITA_roman_empire 
 		subject_canton = ITA_roman_empire 
 		priority = 15
-		
 		trigger = {
 			exists = scope:actor
-			NOT = { exists = c:PAP }
 			scope:actor = {
-				has_law = law_type:law_republic
-				OR = {
-					has_law = law_type:law_oligarchy
-					has_law = law_type:law_autocracy
-				}
+				has_law = law_type:law_presidential_republic
 				ruler = {
 					has_culture = cu:south_italian
 				}
 				capital = { 
 					OR = {
 						state_region = s:STATE_LAZIO
+						state_region = s:STATE_UMBRIA
 						state_region = s:STATE_ROMAGNA 
 					}
 				}
