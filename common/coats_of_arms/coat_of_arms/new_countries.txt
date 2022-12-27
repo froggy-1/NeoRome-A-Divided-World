@@ -2,8 +2,6 @@
 LOU_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-	color2 = "white"
-	color3 = "yellow"
 
 	textured_emblem = {
 		texture = "te_louisiana_swan.dds"
@@ -14,8 +12,6 @@ LOU_subject = {
 PSS = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-	color2 = "red"
-	color3 = "red"
 
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
@@ -425,6 +421,25 @@ DRZ = {
 	colored_emblem = {
 		texture = "ce_rising_sun.dds"
 		color1 = "yellow"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+
+}
+
+
+HSS = {
+	pattern = "pattern_solid.tga"
+	color1 = "dark_green"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "green"
+	}
+
+	colored_emblem = {
+		texture = "ce_crescent_large.dds"
+		color1 = "white"
 		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
 	}
 
