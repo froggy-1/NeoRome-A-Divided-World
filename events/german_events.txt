@@ -1,6 +1,6 @@
-﻿namespace = rome
+﻿namespace = german
 
-rome.1 = {
+german.1 = {
 	type = country_event
 	placement = ROOT
 	
@@ -9,22 +9,11 @@ rome.1 = {
 	flavor = rome.1.f
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
-	immediate = {
-		if = {
-			limit = {
-				ALB = { is_subject_of = c:PAP }
-			}
-# 			c:PAP = {
-# 				annex = c:ALB
-# 			}	
-		}
-    	}
-
    	 trigger = {
-     	   	exists = c:PAP
-   	     	this = c:PAP
-		current_game_date = 1840.1.1
-		NOT = { exists = c:ITA }	
+     	   	exists = c:SWE
+     	   	exists = c:PRU
+   	     	this = c:PRU
+		current_game_date = 1848.1.1	
 	}
 
 	event_image = {
@@ -35,19 +24,16 @@ rome.1 = {
 	
 	option = {
 		name = rome.1.a
-
+		default_option = yes
 		create_diplomatic_play = {
 			name = "Illyrian wars"
-			war = yes
+			target_country = scope:SER
 			type = dp_annex_war
-			target_state = s:STATE_MONTENEGRO.region_state:MON
 		}
-
 		create_diplomatic_play = {
-			name = "Moesian wars"
-			war = yes
+			name = "Illyrian wars"
+			target_country = scope:MON
 			type = dp_annex_war
-			target_state = s:STATE_SOUTHERN_SERBIA.region_state:SER
 		}
 	}
 }
