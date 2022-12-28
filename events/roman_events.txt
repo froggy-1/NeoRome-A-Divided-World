@@ -12,11 +12,19 @@ rome.1 = {
 	immediate = {
 		if = {
 			limit = {
-				ALB = { is_subject_of = c:PAP }
+				c:ALB = { is_subject_of = c:PAP }
 			}
-# 			c:PAP = {
-# 				annex = c:ALB
-# 			}	
+ 			c:PAP = {
+ 				annex = c:ALB
+			}	
+		}
+		if = {
+			limit = {
+				c:SIC = { is_subject_of = c:PAP }
+			}
+ 			c:PAP = {
+ 				annex = c:SIC
+			}	
 		}
     	}
 
@@ -44,10 +52,10 @@ rome.1 = {
 		}
 
 		create_diplomatic_play = {
-			name = "Moesian wars"
+			name = "Greek wars"
 			war = yes
 			type = dp_annex_war
-			target_state = s:STATE_SOUTHERN_SERBIA.region_state:SER
+			target_state = s:STATE_ALBANIA.region_state:EPR
 		}
 	}
 }
