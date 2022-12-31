@@ -1,0 +1,50 @@
+﻿namespace = baltic
+
+baltic.1 = {
+	type = country_event
+	placement = ROOT
+	
+	title = baltic.1.t
+	desc = baltic.1.d
+	flavor = baltic.1.f
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+   	 trigger = {
+     	   	exists = c:RUS
+   	     	this = c:RUS
+		current_game_date > 1845.1.1	
+	}
+
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	duration = 3
+	
+	option = {
+		name = baltic.1.a
+
+		create_diplomatic_play = {
+			name = "Russo-Baltic war"
+			war = yes
+			type = conquer_state
+			target_state = s:STATE_LITHUANIA.region_state:SWP
+
+				add_war_goal = {
+					holder = c:RUS
+					type = conquer_state
+					target_state = s:STATE_ESTONIA.region_state:SWP
+				}
+				add_war_goal = {
+					holder = c:RUS
+					type = conquer_state
+					target_state = s:STATE_LATVIA.region_state:SWP
+				}
+				add_war_goal = {
+					holder = c:RUS
+					type = conquer_state
+					target_state = s:STATE_MAZOVIA.region_state:SWP
+				}
+		}
+	}
+}

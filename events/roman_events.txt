@@ -31,7 +31,7 @@ rome.1 = {
    	 trigger = {
      	   	exists = c:PAP
    	     	this = c:PAP
-		current_game_date = 1840.1.1
+		current_game_date > 1840.1.1
 		NOT = { exists = c:ITA }	
 	}
 
