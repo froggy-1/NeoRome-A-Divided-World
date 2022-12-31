@@ -3,7 +3,7 @@
 		region_state:NEJ = {
 			create_pop = {
 				culture = bedouin
-				size = 93996
+				size = 78996
 			}
 			create_pop = {
 				culture = bedouin
@@ -15,6 +15,23 @@
 				culture = sudanese
 				religion = animist
 				size = 7000
+			}
+		}
+		region_state:HSS = {
+			create_pop = {
+				culture = bedouin
+				size = 15000
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 2000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 1000
 			}
 		}
 	}
@@ -66,7 +83,7 @@
 			create_pop = {
 				culture = bedouin
 				religion = sunni
-				size = 52900
+				size = 42900
 			}
 			create_pop = {
 				pop_type = slaves
@@ -118,11 +135,11 @@
 				size = 100
 			}
 		}
-		region_state:BHN = {
+		region_state:HSS = {
 			create_pop = {
 				culture = bedouin
 				religion = shiite
-				size = 12000
+				size = 22000
 			}
 			create_pop = {
 				culture = bedouin
@@ -262,7 +279,7 @@
 				size = 2300
 			}
 		}
-		region_state:NEJ = {
+		region_state:HSS = {
 			create_pop = {
 				culture = bedouin
 				size = 31000
@@ -684,10 +701,10 @@
 		}
 	}
 	s:STATE_BASRA = {
-		region_state:PER = {
+		region_state:KAR = {
 			create_pop = {
 				culture = mashriqi
-				size = 272000
+				size = 142000
 			}
 			create_pop = {
 				culture = mashriqi
@@ -696,12 +713,12 @@
 			}
 			create_pop = {
 				culture = bedouin
-				size = 71996
+				size = 21996
 			}
 			create_pop = {
 				culture = bedouin
 				religion = shiite
-				size = 52004
+				size = 32004
 			}
 			create_pop = {
 				pop_type = slaves
@@ -712,6 +729,26 @@
 				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 13000
+			}
+		}
+		region_state:HSS = {
+			create_pop = {
+				culture = mashriqi
+				size = 119000
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 5404
+			}
+			create_pop = {
+				culture = bedouin
+				size = 51996
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 28004
 			}
 		}
 	}
@@ -796,7 +833,7 @@
 		}
 	}
 	s:STATE_KHORASAN = {
-		region_state:PER = {
+		region_state:KHI = {
 			create_pop = {
 				culture = persian
 				size = 480104
@@ -817,7 +854,7 @@
 		}
 	}
 	s:STATE_KHUZESTAN = {
-		region_state:PER = {
+		region_state:KAR = {
 			create_pop = {
 				culture = persian
 				size = 183996
@@ -902,7 +939,7 @@
 		}
 	}
 	s:STATE_TABRIZ = {
-		region_state:PER = {
+		region_state:KAR = {
 			create_pop = {
 				culture = azerbaijani
 				size = 731300
@@ -945,7 +982,7 @@
 		}
 	}
 	s:STATE_LURISTAN = {
-		region_state:PER = {
+		region_state:KAR = {
 			create_pop = {
 				culture = persian
 				size = 343204

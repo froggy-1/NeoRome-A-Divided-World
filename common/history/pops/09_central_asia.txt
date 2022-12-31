@@ -91,7 +91,7 @@
 		}
 	}
 	s:STATE_AZERBAIJAN = {
-		region_state:PER = {
+		region_state:KAR = {
 			create_pop = {
 				culture = azerbaijani
 				size = 172100
@@ -542,7 +542,7 @@
 		}
 	}
 	s:STATE_WESTERN_AFGHANISTAN = {
-		region_state:PER = {
+		region_state:KHI = {
 			create_pop = {
 				culture = tajik
 				size = 670172
@@ -585,7 +585,7 @@
 		}
 	}
 	s:STATE_EASTERN_AFGHANISTAN = {
-		region_state:PER = {
+		region_state:PAN = {
 			create_pop = {
 				culture = pashtun
 				size = 1131236
@@ -636,7 +636,7 @@
 				size = 7000
 			}
 		}
-		region_state:PER = {
+		region_state:PAN = {
 			create_pop = {
 				culture = baluchi
 				size = 512392

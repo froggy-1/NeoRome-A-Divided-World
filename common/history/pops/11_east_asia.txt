@@ -894,7 +894,7 @@
 		}
 	}
 	s:STATE_MEKONG = {
-		region_state:DAI = {
+		region_state:CAM = {
 			create_pop = {
 				culture = vietnamese
 				size = 1152396
@@ -978,7 +978,7 @@
 				size = 16000
 			}
 		}
-		region_state:CHP = {
+		region_state:CAM = {
 			create_pop = {
 				culture = lao
 				size = 86720
