@@ -429,18 +429,30 @@ DRZ = {
 
 HSS = {
 	pattern = "pattern_solid.tga"
-	color1 = "dark_green"
+	color1 = "white"
 
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "green"
 		color2 = "green"
 	}
 
 	colored_emblem = {
 		texture = "ce_crescent_large.dds"
 		color1 = "white"
-		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.4 0.4 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_crescent_large.dds"
+		color1 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.7 0.3 } }
+	} 
+
+	colored_emblem = {
+		texture = "ce_crescent_large.dds"
+		color1 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.7 0.7 } }
 	}
 
 }
