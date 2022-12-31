@@ -88,7 +88,7 @@
 		}
 	}
 	s:STATE_AZERBAIJAN={
-		region_state:PER={
+		region_state:KAR={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -392,7 +392,7 @@
 		}
 	}
 	s:STATE_WESTERN_AFGHANISTAN={
-		region_state:PER={
+		region_state:KHI={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -426,7 +426,7 @@
 		}
 	}
 	s:STATE_EASTERN_AFGHANISTAN={
-		region_state:PER={
+		region_state:PAN={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -492,7 +492,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:PER={
+		region_state:PAN={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
