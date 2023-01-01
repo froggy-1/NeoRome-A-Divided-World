@@ -41,6 +41,10 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
+			country = c:KAZ
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:YAK
 			type = puppet
 		}	
@@ -72,6 +76,14 @@
 	c:ABH = {
 		create_diplomatic_pact = {
 			country = c:VEN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TRS
 			type = puppet
 		}
 		create_diplomatic_pact = {
@@ -283,12 +295,6 @@
 	c:CPT = {
 		create_diplomatic_pact = {
 			country = c:SYR
-			type = puppet
-		}
-	}
-	c:PER = {	
-		create_diplomatic_pact = {
-			country = c:HSS
 			type = puppet
 		}
 	}
