@@ -123,8 +123,8 @@
  BNL_ADJ:0 "Beneluxian"
  BNL_FLAVOR_TEXT:0 "The Beneluxian have been a way for many conquerors, today it must be united in one country to face the barbarians"
 
- GSX:0 "Hanseatic union"
- GSX_ADJ:0 "Hansa"
+ GSX:0 "Greater Saxony"
+ GSX_ADJ:0 "Saxon"
  GSX_FLAVOR_TEXT:0 "The Saxon have been a way for many conquerors, today it must be united in one country to face the barbarians"
 
  NSG:0 "Anglo-Saxon Empire"
@@ -139,5 +139,9 @@
  SWP_ADJ:0 "Baltic"
  SWP_FLAVOR_TEXT:0 "The Baltic have been a way for many conquerors, today it must be united in one country to face the barbarians"
 
- ABH:0 "Austria-Bohemia"
- ABH_ADJ:0 "Austrian-Bohemian"
+ ABH:0 "Austria-Moravia"
+ ABH_ADJ:0 "Austria-Moravian"
+
+ HSA:0 "Hanseatic union"
+ HSA_ADJ:0 "Hansa"
+ HSA_FLAVOR_TEXT:0 "The Hansean have been a way for many conquerors, today it must be united in one country to face the barbarians"
