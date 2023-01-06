@@ -1126,7 +1126,7 @@
 				size = 3000
 			}
 		}
-		region_state:QUE = {
+		region_state:HBC = {
 			create_pop = {
 				culture = inuit
 				size = 4000
