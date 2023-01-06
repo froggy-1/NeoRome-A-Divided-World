@@ -18,6 +18,11 @@
 			country = c:UGE
 			type = puppet
 		}
+		# Nova Scotia
+		create_diplomatic_pact = {
+			country = c:NVS
+			type = puppet
+		}
 	}
 	c:MNG = {
 		create_diplomatic_pact = {
@@ -144,6 +149,11 @@
 			country = c:RHI
 			type = puppet
 		}
+		# Colony of Western Australia
+		create_diplomatic_pact = {
+			country = c:WAS
+			type = puppet
+		}
 	}
 	c:SWP = {
 		create_diplomatic_pact = {
@@ -168,6 +178,23 @@
 			country = c:OLD
 			type = puppet
 		}
+
+		### Vinland ###
+
+		# Province of Upper Canada
+		create_diplomatic_pact = {
+			country = c:ONT
+			type = puppet
+		}
+		# Hudson Bay Company has a weird autonomous charter
+		create_diplomatic_pact = {
+			country = c:HBC
+			type = dominion
+		}		
+		create_diplomatic_pact = {
+			country = c:UOM
+			type = puppet
+		}
 	}
 	c:CHI = {
 		create_diplomatic_pact = {
@@ -183,7 +210,7 @@
 			type = tributary
 		}			
 	}
-	c:FSA = {
+	c:VIR = {
 		create_diplomatic_pact = {
 			country = c:LIB
 			type = protectorate
@@ -213,13 +240,10 @@
 		create_diplomatic_pact = {
 			country = c:SAF
 			type = puppet
-		}		
+		}	
+		# New England
 		create_diplomatic_pact = {
 			country = c:NEN
-			type = puppet
-		}		
-		create_diplomatic_pact = {
-			country = c:UOM
 			type = puppet
 		}	
 		# New Brunswick
@@ -227,33 +251,11 @@
 			country = c:NBS
 			type = puppet
 		}
-		# Nova Scotia
-		create_diplomatic_pact = {
-			country = c:NVS
-			type = puppet
-		}
 
-		### OH CANADA ###
-		# Province of Upper Canada
-		create_diplomatic_pact = {
-			country = c:ONT
-			type = puppet
-		}
-		# Hudson Bay Company has a weird autonomous charter
-		create_diplomatic_pact = {
-			country = c:HBC
-			type = dominion
-		}
-
-		### AUSTRALIA ###
+		### EASTRALIA ###
 		# Colony of New South Wales
 		create_diplomatic_pact = {
 			country = c:NSW
-			type = puppet
-		}
-		# Colony of Western Australia
-		create_diplomatic_pact = {
-			country = c:WAS
 			type = puppet
 		}
 		# Colony of South Australia, established in February 1836
@@ -272,17 +274,13 @@
 			type = protectorate
 		}
 	}
-	c:DAI = {
+	c:MNG = {
 		create_diplomatic_pact = {
-			country = c:CAM
+			country = c:DAI
 			type = tributary
 		}
 	}
 	c:SIA = {
-		create_diplomatic_pact = {
-			country = c:CHP
-			type = vassal
-		}
 		create_diplomatic_pact = {
 			country = c:CMI
 			type = vassal
@@ -391,11 +389,6 @@
 		}		
 	}	
 	c:FRA = {
-		# Province of Lower Canada
-		create_diplomatic_pact = {
-			country = c:QUE
-			type = dominion
-		}
 		# Province of Louisiana
 		create_diplomatic_pact = {
 			country = c:LOU
