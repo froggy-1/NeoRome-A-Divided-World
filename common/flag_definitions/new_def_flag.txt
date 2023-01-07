@@ -21,3 +21,77 @@
 		}
 	}
 }
+
+GER = { # Germany
+	flag_definition = {
+		coa = GER_HAN
+		subject_canton = GER_HAN
+		priority = 15
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				ruler = {
+					has_culture = cu:north_german
+				}
+				capital = { 
+					OR = {
+						state_region = s:STATE_ANHALT
+						state_region = s:STATE_HANNOVER
+					}
+				}
+			}
+		}
+	}
+}
+
+NRS = {
+    flag_definition = {
+        	coa = NRS
+        	subject_canton = NRS
+        	priority = 1
+        	allow_overlord_canton = yes
+    	}
+}
+
+SWP = {
+    flag_definition = {
+        	coa = SWP
+        	subject_canton = SWP
+        	priority = 1
+        	allow_overlord_canton = yes
+    	}
+}
+
+ABH = {
+    flag_definition = {
+        	coa = ABH
+        	subject_canton = ABH
+        	priority = 1
+        	allow_overlord_canton = yes
+    	}
+}
+
+GAE = {
+    flag_definition = {
+        	coa = GAE
+        	subject_canton = GAE
+        	priority = 1
+        	allow_overlord_canton = yes
+    	}
+}
+
+UOM = { # Michigan
+	flag_definition = {
+		coa = UOM
+        	subject_canton = UOM
+        	priority = 1
+        	allow_overlord_canton = yes
+	}
+	flag_definition = {
+		coa = UOM_subject	
+		allow_overlord_canton = yes	
+		overlord_canton_offset = { 0.01 0.015 }
+		overlord_canton_scale = { 0.48 0.47 }			
+		priority = 50
+	}
+}
