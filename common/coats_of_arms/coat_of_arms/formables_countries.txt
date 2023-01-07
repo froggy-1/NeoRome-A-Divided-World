@@ -125,9 +125,12 @@ GSX = {
     color1 = "black"
 
     colored_emblem = {
-        texture = "ce_tricolor_horizontal.dds"
-        color1 = "white"
-        color2 = "yellow"
+        texture = "ce_stripes_10.dds"
+        color1 = "yellow"
+    }
+    colored_emblem = {
+        texture = "ce_bend_dexter.dds"
+        color1 = "green"
     }
 }
 
@@ -200,4 +203,27 @@ ABH = {
 
         mask = { 2 }
     }
+}
+
+GER_HAN = {
+    pattern = "pattern_solid.tga"
+    color1 = "black"
+
+    colored_emblem = {
+        texture = "ce_tricolor_horizontal.dds"
+        color1 = "white"
+        color2 = "yellow"
+    }
+}
+
+#### State subjects ####
+
+UOM_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "usa_monarchy_blue"
+
+	textured_emblem = {
+		texture = "te_coa_michigan.dds"
+		instance = { scale = { 0.5 0.5 } position = { 0.66 0.66 } }
+	}
 }
