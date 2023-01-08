@@ -2122,7 +2122,6 @@ UOM = { # Michigan
 	}
 }
 
-
 UGE = { # New Scotland
 	dynamic_country_name = {
 		name = dyn_c_new_sctoland
@@ -2265,6 +2264,73 @@ ITA = { # Western Rome
 					owns_entire_state_region = STATE_LAZIO
 					owns_entire_state_region = STATE_ROMAGNA 
 					owns_entire_state_region = STATE_DALMATIA 
+				}
+			}
+		}
+	}
+}
+
+##########################
+### alt names part two ###
+##########################
+
+UOM = { # Great Lake company
+	dynamic_country_name = {
+		name = dyn_c_lakes
+		adjective = dyn_c_lakes_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:NRS
+			c:NRS = {
+				has_diplomatic_pact = {
+					who = c:UOM
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+HBC = { # Markland
+	dynamic_country_name = {
+		name = dyn_c_markland
+		adjective = dyn_c_markland_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:NRS
+			c:NRS = {
+				has_diplomatic_pact = {
+					who = c:HBC
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+ONT = { # Vinland
+	dynamic_country_name = {
+		name = dyn_c_vinland
+		adjective = dyn_c_vinland_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:NRS
+			c:NRS = {
+				has_diplomatic_pact = {
+					who = c:ONT
+					type = puppet
+					is_initiator = yes
 				}
 			}
 		}

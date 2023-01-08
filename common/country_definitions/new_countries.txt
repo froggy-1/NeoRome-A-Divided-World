@@ -265,14 +265,14 @@ KZA = {
 	
 	country_type = unrecognized
 	
-	tier = empire
+	tier = kingdom
 	
 	cultures = { Kalmyk tatar mongol }
 	religion = jewish
 	capital = STATE_ASTRAKHAN
 }
 
-### Qaramanid Empire ###
+### Middle East ###
 
 KAR = {
 	color = { 170  175  205 }
@@ -283,4 +283,16 @@ KAR = {
 	
 	cultures = { turkish }
 	capital = STATE_ADANA
+}
+
+HSS = {
+	color = { 45  75  45 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { bedouin }
+	religion = shiite
+	capital = STATE_ABU_DABI
 }

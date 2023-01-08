@@ -95,3 +95,19 @@ UOM = { # Michigan
 		priority = 50
 	}
 }
+
+VIR = { # Virginia
+	flag_definition = {
+		coa = VIR
+        	subject_canton = VIR
+        	priority = 1
+        	allow_overlord_canton = yes
+	}
+	flag_definition = {
+		coa = VIR_subject 
+		allow_overlord_canton = yes	
+		overlord_canton_offset = { 0.01 0.015 }
+		overlord_canton_scale = { 0.48 0.47 }			
+		priority = 50
+	}
+}
