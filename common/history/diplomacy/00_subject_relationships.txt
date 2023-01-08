@@ -163,7 +163,17 @@
 		create_diplomatic_pact = {
 			country = c:MEC
 			type = puppet
+		}	
+	}
+	c:JAP = {
+		create_diplomatic_pact = {
+			country = c:ORG
+			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:ASK
+			type = puppet
+		}	
 	}	
 	c:NRS = {
 		create_diplomatic_pact = {
@@ -222,21 +232,13 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:ASK
-			type = puppet
-		}
-		create_diplomatic_pact = {
 			country = c:BIC
 			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:SIL
 			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:ORG
-			type = puppet
-		}		
+		}	
 		create_diplomatic_pact = {
 			country = c:SAF
 			type = puppet
