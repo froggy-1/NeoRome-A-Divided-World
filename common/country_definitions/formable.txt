@@ -140,3 +140,16 @@ ABH = { ### Austria-Bohemia
 	cultures = { south_german czech sorb slovak }
 	capital = STATE_AUSTRIA
 }
+
+### Bryton ###
+
+BTT = {
+	color = { 141  146  118 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { welsh breton }
+	capital = STATE_WALES
+}

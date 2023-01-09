@@ -296,3 +296,112 @@ HSS = {
 	religion = shiite
 	capital = STATE_ABU_DABI
 }
+
+### Tribes America ###
+
+
+AWW = { ## Arawak
+	color = { 57 209 192 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tupinamba }
+	
+	capital = STATE_AMAZONAS
+}
+
+CWW = { ## Choctaw
+	color = { 180 201 176 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { caddoan }
+	
+	capital = STATE_ALABAMA
+}
+
+# to continue
+
+
+### British states ###
+
+NTH = {
+	color = { 181 36 34 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { british }
+	capital = STATE_LANCASHIRE
+}
+
+EXX = {
+	color = { 171 46 29 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { british }
+	capital = STATE_HOME_COUNTIES
+}
+
+WXX = {
+	color = { 190 78 70 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { british }
+	capital = STATE_HOME_COUNTIES
+}
+
+SXX = {
+	color = { 179 81 76 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { british }
+	capital = STATE_HOME_COUNTIES
+}
+
+MRC = {
+	color = { 151 31 20 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { british }
+	capital = STATE_MIDLANDS
+}
+
+KNT = {
+	color = { 151 31 20 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { british }
+	capital = STATE_HOME_COUNTIES
+}
+
+EAN = {
+	color = { 151 31 20 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { british }
+	capital = STATE_EAST_ANGLIA
+}
