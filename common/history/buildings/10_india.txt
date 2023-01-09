@@ -816,7 +816,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_sugar_plantation"
 				level=1

@@ -947,7 +947,7 @@
 		}
 	}
 	s:STATE_SOUTH_ATLANTIC_ISLANDS={
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_port"
 				level=1
@@ -961,11 +961,11 @@
 		}
 	}
 	s:STATE_AMAZONAS={
-		region_state:DRZ={
+		region_state:AWA={
 		}
 		region_state:LVN={
 		}
-		region_state:BOL={
+		region_state:TPI={
 		}
 	}
 	s:STATE_MATO_GROSSO={

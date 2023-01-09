@@ -72,7 +72,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:GBR={
+		region_state:ENG={
 		}
 		region_state:SRR={
 		}
@@ -330,7 +330,7 @@
 		}
 	}
 	s:STATE_GHANA={
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_port"
 				level=1

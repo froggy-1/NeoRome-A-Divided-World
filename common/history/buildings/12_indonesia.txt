@@ -56,7 +56,7 @@
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 		}
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_tea_plantation"
 				level=1

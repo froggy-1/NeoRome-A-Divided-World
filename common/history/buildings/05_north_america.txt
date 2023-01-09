@@ -216,6 +216,32 @@
 				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
+		region_state:IRO={
+			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_iron_frame_buildings" }
+			}			
+			create_building={
+				building="building_arms_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" "pm_cannons" }
+			}
+			create_building={
+				building="building_munition_plants"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_percussion_caps" "pm_privately_owned_industry" }
+			}	
+		}
 	}
 	if = {
 		limit = {
@@ -292,6 +318,8 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}			
+		}
+		region_state:CHE={
 		}
 	}
 	s:STATE_ALASKA={
@@ -547,7 +575,7 @@
 		}
 	}
 	s:STATE_KENTUCKY={
-		region_state:VIR={
+		region_state:CHE={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -599,7 +627,7 @@
 		}
 	}
 	s:STATE_TENNESSEE={
-		region_state:UGE={
+		region_state:CWW={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -645,7 +673,7 @@
 		}
 	}
 	s:STATE_MISSISSIPPI={
-		region_state:UGE={
+		region_state:CWW={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -673,7 +701,7 @@
 		}
 	}
 	s:STATE_ALABAMA={
-		region_state:UGE={
+		region_state:CWW={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -775,7 +803,7 @@
 		}
 	}
 	s:STATE_WEST_VIRGINIA={
-		region_state:VIR={
+		region_state:CHE={
 			create_building={
 				building="building_coal_mine"
 				level=1
@@ -788,6 +816,8 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
+		}
+		region_state:VIR={
 		}
 	}
 	s:STATE_MARYLAND={
@@ -1464,7 +1494,7 @@
 		}
 	}
 	s:STATE_NEWFOUNDLAND={
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -1538,7 +1568,7 @@
 		}
 	}
 	s:STATE_BERMUDA={
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_naval_base"
 				level=5

@@ -227,7 +227,47 @@
 		}
 	}
 	s:STATE_HOME_COUNTIES = {
-		region_state:GBR = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 2657596
+			}
+			create_pop = {
+				culture = british
+				religion = jewish
+				size = 20000
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 100000
+			}
+			create_pop = {
+				culture = irish
+				size = 28400
+			}
+		}
+		region_state:KNT = {
+			create_pop = {
+				culture = british
+				size = 2657596
+			}
+			create_pop = {
+				culture = british
+				religion = jewish
+				size = 20000
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 100000
+			}
+			create_pop = {
+				culture = irish
+				size = 28400
+			}
+		}
+		region_state:WXX = {
 			create_pop = {
 				culture = british
 				size = 2657596
@@ -249,7 +289,7 @@
 		}
 	}
 	s:STATE_LANCASHIRE = {
-		region_state:GBR = {
+		region_state:ENG = {
 			create_pop = {
 				culture = british
 				size = 1986404
@@ -266,7 +306,7 @@
 		}
 	}
 	s:STATE_WALES = {
-		region_state:GBR = {
+		region_state:BTT = {
 			create_pop = {
 				culture = welsh
 				size = 778557
@@ -278,7 +318,7 @@
 		}
 	}
 	s:STATE_YORKSHIRE = {
-		region_state:GBR = {
+		region_state:NTH = {
 			create_pop = {
 				culture = british
 				size = 2026592
@@ -308,15 +348,30 @@
 		}
 	}
 	s:STATE_MIDLANDS = {
-		region_state:GBR = {
+		region_state:MRC = {
 			create_pop = {
 				culture = british
-				size = 2543604
+				size = 1643604
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 24400
+				size = 20400
+			}
+			create_pop = {
+				culture = irish
+				size = 12000
+			}
+		}
+		region_state:BTT = {
+			create_pop = {
+				culture = british
+				size = 923604
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 4400
 			}
 			create_pop = {
 				culture = irish
@@ -325,10 +380,32 @@
 		}
 	}
 	s:STATE_EAST_ANGLIA = {
-		region_state:GBR = {
+		region_state:EAN = {
 			create_pop = {
 				culture = british
-				size = 1565208
+				size = 1025208
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 8000
+			}
+		}
+		region_state:EXX = {
+			create_pop = {
+				culture = british
+				size = 295208
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 8000
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 155208
 			}
 			create_pop = {
 				culture = british
@@ -338,36 +415,62 @@
 		}
 	}
 	s:STATE_WEST_COUNTRY = {
-		region_state:GBR = {
+		region_state:BTT = {
 			create_pop = {
 				culture = british
-				size = 1969600
+				size = 1159600
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 12400
+				size = 6000
 			}
 			create_pop = {
 				culture = irish
 				size = 4400
 			}
 		}
+		region_state:WXX = {
+			create_pop = {
+				culture = british
+				size = 870600
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 6400
+			}
+		}
 	}
 	s:STATE_LOWLANDS = {
-		region_state:GAE = {
+		region_state:NTH = {
 			create_pop = {
 				culture = scottish
-				size = 1397200
+				size = 307200
 			}
 			create_pop = {
 				culture = scottish
 				religion = catholic
-				size = 188000
+				size = 108000
 			}
 			create_pop = {
 				culture = irish
-				size = 52400
+				size = 10000
+			}
+		}
+		region_state:GAE = {
+			create_pop = {
+				culture = scottish
+				size = 1097200
+			}
+			create_pop = {
+				culture = scottish
+				religion = catholic
+				size = 80000
+			}
+			create_pop = {
+				culture = irish
+				size = 42400
 			}
 		}
 	}
@@ -424,7 +527,7 @@
 		}
 	}
 	s:STATE_LEINSTER = {
-		region_state:GBR = {
+		region_state:ENG = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1677581
@@ -510,7 +613,7 @@
 		}
 	}
 	s:STATE_NORMANDY = {
-		region_state:GBR = {
+		region_state:ENG = {
 			create_pop = {
 				culture = french
 				size = 1350396
@@ -560,7 +663,7 @@
 		}
 	}
 	s:STATE_PICARDY = {
-		region_state:GBR = {
+		region_state:ENG = {
 			create_pop = {
 				culture = french
 				size = 858408

@@ -78,7 +78,7 @@
 				size = 600
 			}
 		}
-		region_state:GBR = {
+		region_state:ENG = {
 			create_pop = {
 				culture = malay
 				size = 40000

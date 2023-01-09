@@ -57,7 +57,7 @@
 		region_state:NWY = {
 			create_pop = {
 				culture = yankee
-				size = 1635000
+				size = 1435000
 			}
 			create_pop = {
 				culture = yankee
@@ -79,7 +79,27 @@
 			}
 			create_pop = {
 				culture = iroquoian
-				size = 5000
+				size = 4000
+			}
+		}
+		region_state:IRO = {
+			create_pop = {
+				culture = yankee
+				size = 205000
+			}
+			create_pop = {
+				culture = yankee
+				religion = jewish
+				size = 500
+			}
+			create_pop = {
+				culture = yankee
+				religion = catholic
+				size = 10996
+			}
+			create_pop = {
+				culture = iroquoian
+				size = 15000
 			}
 		}
 		region_state:NEN = {
@@ -130,6 +150,21 @@
 				pop_type = slaves
 				culture = afro_american
 				size = 312079
+			}
+		}
+		region_state:CHE = {
+			create_pop = {
+				culture = dixie
+				size = 1000
+			}
+			create_pop = {
+				culture = dixie
+				religion = catholic
+				size = 1000
+			}
+			create_pop = {
+				culture = Cherokee
+				size = 5000
 			}
 		}
 	}
@@ -577,7 +612,7 @@
 		}
 	}
 	s:STATE_KENTUCKY = {
-		region_state:VIR = {
+		region_state:CHE = {
 			create_pop = {
 				culture = dixie
 				size = 239988
@@ -602,7 +637,7 @@
 		}
 	}
 	s:STATE_TENNESSEE = {
-		region_state:UGE = {
+		region_state:CWW = {
 			create_pop = {
 				culture = dixie
 				size = 369604
@@ -635,7 +670,7 @@
 		}
 	}
 	s:STATE_MISSISSIPPI = {
-		region_state:UGE = {
+		region_state:CWW = {
 			create_pop = {
 				culture = dixie
 				size = 172804
@@ -652,7 +687,7 @@
 		}
 	}
 	s:STATE_ALABAMA = {
-		region_state:UGE = {
+		region_state:CWW = {
 			create_pop = {
 				culture = dixie
 				size = 329008
@@ -682,7 +717,7 @@
 		}
 	}
 	s:STATE_FLORIDA = {
-		region_state:MSC= {
+		region_state:FLR= {
 			create_pop = {
 				culture = dixie
 				size = 47996
@@ -732,7 +767,7 @@
 		region_state:VIR = {
 			create_pop = {
 				culture = dixie
-				size = 160916
+				size = 130916
 			}
 			create_pop = {
 				pop_type = slaves
@@ -747,6 +782,21 @@
 				culture = dixie
 				religion = catholic
 				size = 28000
+			}
+		}
+		region_state:CHE = {
+			create_pop = {
+				culture = dixie
+				size = 30916
+			}
+			create_pop = {
+				culture = dixie
+				religion = catholic
+				size = 1000
+			}
+			create_pop = {
+				culture = Cherokee
+				size = 14000
 			}
 		}
 	}
@@ -1291,7 +1341,7 @@
 		}
 	}
 	s:STATE_BERMUDA = {
-		region_state:GBR = {
+		region_state:ENG = {
 			create_pop = {
 				culture = british
 				size = 14848

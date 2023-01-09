@@ -262,7 +262,7 @@
 		}
 	}
 	s:STATE_BAHAMAS={
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_banana_plantation"
 				level=1
@@ -324,7 +324,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_sugar_plantation"
 				level=3
@@ -352,7 +352,7 @@
 		}
 	}
 	s:STATE_JAMAICA={
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_banana_plantation"
 				level=1

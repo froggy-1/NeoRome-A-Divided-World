@@ -472,7 +472,7 @@
 		}
 	}
 	s:STATE_BALUCHISTAN={
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_wheat_farm"
 				level=1

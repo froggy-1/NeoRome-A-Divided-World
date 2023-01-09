@@ -860,7 +860,7 @@
 				size = 6000
 			}
 		}
-		region_state:GBR = {
+		region_state:ENG = {
 			create_pop = {
 				culture = french
 				size = 2088
