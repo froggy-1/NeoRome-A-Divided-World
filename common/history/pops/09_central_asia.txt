@@ -35,7 +35,11 @@
 		region_state:KZA = {
 			create_pop = {
 				culture = north_caucasian
-				size = 528804
+				size = 458804
+			}
+			create_pop = {
+				culture = bolghars 
+				size = 72200
 			}
 			create_pop = {
 				culture = greek
@@ -161,12 +165,12 @@
 		region_state:IUS = {
 			create_pop = {
 				culture = russian
-				size = 1977196
+				size = 977196
 			}
 			create_pop = {
 				culture = tatar
 				religion = orthodox
-				size = 60000
+				size = 1060000
 			}
 			create_pop = {
 				culture = tatar
@@ -178,7 +182,7 @@
 		region_state:IUS = {
 			create_pop = {
 				culture = russian
-				size = 2455124
+				size = 1455124
 			}
 			create_pop = {
 				culture = ugrian
@@ -187,7 +191,7 @@
 			}
 			create_pop = {
 				culture = tatar
-				size = 642996
+				size = 1642996
 			}
 			create_pop = {
 				culture = tatar
@@ -200,11 +204,11 @@
 		region_state:IUS = {
 			create_pop = {
 				culture = russian
-				size = 2656396
+				size = 1356396
 			}
 			create_pop = {
 				culture = tatar
-				size = 24000
+				size = 1324000
 			}
 			create_pop = {
 				culture = north_german
@@ -221,11 +225,15 @@
 		region_state:KZA = {
 			create_pop = {
 				culture = kalmyk
-				size = 795208
+				size = 715208
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 84000
+				size = 64000
+			}
+			create_pop = {
+				culture = bolghars 
+				size = 102200
 			}
 			create_pop = {
 				culture = russian

@@ -227,7 +227,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = tatar
-				size = 158400
+				size = 90400
+			}
+			create_pop = {
+				culture = bolghars 
+				size = 91200
 			}
 			create_pop = {
 				culture = south_german

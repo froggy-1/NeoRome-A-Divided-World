@@ -899,7 +899,11 @@
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 384000
+				size = 90000
+			}
+			create_pop = {
+				culture = slavic_macedonian
+				size = 204000
 			}
 			create_pop = {
 				culture = greek
@@ -918,8 +922,12 @@
 				size = 84000
 			}
 			create_pop = {
+				culture = greek_macedonian
+				size = 206000
+			}
+			create_pop = {
 				culture = greek
-				size = 276000
+				size = 70000
 			}
 			create_pop = {
 				culture = bulgarian
@@ -948,8 +956,12 @@
 				size = 274808
 			}
 			create_pop = {
+				culture = greek_macedonian
+				size = 236000
+			}
+			create_pop = {
 				culture = greek
-				size = 376000
+				size = 146000
 			}
 			create_pop = {
 				culture = bulgarian

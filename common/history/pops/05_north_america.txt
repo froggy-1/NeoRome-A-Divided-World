@@ -850,17 +850,17 @@
 		region_state:NWY = {
 			create_pop = {
 				culture = yankee
-				size = 1250496
+				size = 590496
 			}
 			create_pop = {
 				culture = yankee
 				religion = jewish
-				size = 2000
+				size = 1000
 			}
 			create_pop = {
 				culture = yankee
 				religion = catholic
-				size = 144008
+				size = 84008
 			}
 			create_pop = {
 				culture = irish
@@ -869,6 +869,22 @@
 			create_pop = {
 				culture = afro_american
 				size = 43996
+			}
+		}
+		region_state:IRO = {
+			create_pop = {
+				culture = yankee
+				size = 700496
+			}
+			create_pop = {
+				culture = yankee
+				religion = jewish
+				size = 1000
+			}
+			create_pop = {
+				culture = yankee
+				religion = catholic
+				size = 61008
 			}
 		}
 	}
