@@ -226,7 +226,38 @@
 			type = protectorate
 		}
 	}
-	c:GBR = {
+	c:ENG = {
+		# England
+		create_diplomatic_pact = {
+			country = c:SXX
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:WXX
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:EXX
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:KNT
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:EAN
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:MRC
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:NTH
+			type = puppet
+		}
+
+		# other
 		create_diplomatic_pact = {
 			country = c:ABU
 			type = protectorate
