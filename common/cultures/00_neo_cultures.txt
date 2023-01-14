@@ -1,0 +1,951 @@
+﻿greek_macedonian={
+	color= rgb{ 0 102 204 }
+	religion = orthodox
+
+	traits = { greek_speaking hellenic european_heritage }
+
+        obsessions = {
+		liquor
+	}
+
+	male_common_first_names={
+		Andrej
+                Damjan
+                David
+                Jovan
+                Luka
+                Marko
+                Matej
+                Mihail
+                Petar
+                Stephanos
+                Aco
+                Admetos
+                Aeropos
+                Alketas
+                Amyntas
+                Androtimos
+                Antigonos
+                Antipatros
+                Archelaos
+                Argaios
+                Arridhaios
+                Autodikos
+                Axios
+                Balakros
+                Bashkim
+                Besart
+                Blazhe
+                Bogdanoff
+                Deinokratis
+                Dimitar
+                Dimitrov
+                Dimnos
+                Elisie
+                Hegelochos
+                Hephaistion
+                Herakleides
+                Jakle
+                Jakov
+                Josif
+                Julijan
+                Karanos
+                Kassandros
+                Kleitus
+                Kleocharis
+                Kliment
+                Koinos
+                Korragos
+                Krateros
+                Kritolaos
+                Laomedon
+                Lazar
+                Leocharis
+                Leonnatos
+                Macedonia
+                Mateja
+                Basileus
+                Menelaos
+                Mitron
+                Mojcej
+                Neoptolemus
+                Nikanor
+                Odisej
+                Parmenion
+                Paskal
+                Pausanias
+                Peithon
+                Perdikkas
+                Petrov
+                Peukestas
+                Philotas
+                Philoxenos
+                Polemon
+                Polyperchon
+                Prepelaos
+                Ptolemeos
+                Ptolemeo
+                Risto
+                Seleukos
+                Sostratos
+                Seleuko
+                Theoxenos
+                Timandros
+                Tlepolemos
+                Tlepolemo
+                Todor
+                Traianu
+                Trenay
+                Tyrimmas
+                Uril
+                Zeuxis
+                Zoilos
+	}
+	female_common_first_names = {
+                Alessa
+                Alexandra
+                Amalthea
+                Anastacia
+                Aria
+                Aurelia
+                Asia
+		Beta
+		Basilia
+                Cassia
+		Cressida
+		Cassandra
+		Circe
+                Calliope
+		Calista
+                Daphne
+		Desdemona
+		Despina
+		Danae
+		Evangeline
+                Helen
+		Helena
+		Hermia
+		Ianthe
+		Katherine
+		Lysandra
+		Lyssa
+		Myrine
+		Melania
+		Ophelia
+		Olympia
+		Peta
+                Phoebe
+                Selena
+                Selene
+		Theresa
+		Zephyra
+		Melia
+		Juno
+		Nicole
+		Iris
+		Penelope
+		Thea
+		Lyra
+		Kosta
+		Kostantina
+	}
+	noble_last_names = {
+		Apion Asen Angloi Arvanitachi Argyropoulos
+                Choumnos Cantacuzene Cantacuzenus 
+		Benizelos Botsaris Boutzias Bousbos Boufis Bekas
+		Drakos Dousmanis Danglis
+		Fotos
+		Gabras Gonemis Galatis
+		Iras
+		Komnenos Kolokotronis Kapodistrias Kalogeras Kallergis Kartanos Koutsonikas Kaskaris
+		Laskaris Levidis Landos
+		Melissenos Metaxas Manos Mavromichalis Mavrokordatos Mamonas Marmoras Mantzos Matis Mourouzis
+		Notaras Nikas Negreponte
+		Palaiologoi Pieros Polylas Prosalendi Patrikios Papagiannis Palamas Pandazis Philes
+		Raoul Rodostamos Rallis Rubenid
+		Synadenos Soutsos Seos Sachinis Salataris
+		Tagaris Theotokis Tzavelas Thanasis Toras Todis Tzoris
+		Vatatzes Vlassopoulos Velios Vasos
+		Ypsilantis
+		Zarbas
+	}	
+	common_last_names={
+		Andreou Aspiotis Andriakopoulos Athanasopoulos Anninos Athanasiou Akratopoulos Antonpoulos Asimakopoulos Axiotis
+		Belokas Benardis Baltatzis
+		Chalkokondylis Chrysafis Chorafas Chrysafos Chazapis Charalambis
+		Deligiannis Damaskos Diamantis Diamantopoulos Dontis Drivas Dalezios Douros
+		Eftaxias
+		Fetsis Fetsios Frangoudis Frangopoulos Foustanos Farmakidis Freris Farmakidis Fotilas
+		Gennimatas Golemis Gerakeris Grigoriou Gouskos Georgiadis Gaitanos Grigoriadis Gneftos Gazis
+		Hatzidakis
+		Iatrou Iatridis 
+		Karousou Karakatsanis Kafetzis Koletis Kostantinidis Konstantinou Karakalos Karvelas Karagiannopoulos Karasevdas Karagiannis Katravas Khatzis Kontos Koukoudakis Kourkoulas Kasdaglis Kallisperi Kanaris Konstantas
+		Lagoudakis Lavrentis Loverdos Loundras Langakis Levidis Lamprakis Laskaridis Lerias Liapis Logothetis
+		Merkatis Mouratis Masouris Mitropoulos Mikhailidis Moustakopoulos Morakis Mangourakis Markou Marnezos Mazoukas Mikhalopoulos Malokinis Mavrommatis Mavrogenes Mansolas
+		Nikolopoulos Nastos Neroutsos Negris
+		Orphanidis Orlandos
+		Paraskevopoulos Papasymeon Papadiamantopoulos Persakis Papasideris Pierrakos-Mavromichalis Poulos Pyrgos Petmezas Papaioannou Pavlidis Platis Petrou Pantazidis Patsouris Pothitos Pepanos Paspatis Petrokokkinos Papafingos Peppas Psychas Printezis Papailiopoulos
+		Romantzas Rallis Roussos
+		Skaltsogiannis Stais Sanidis Salouros Santanis Stournaras Siganous Skandalidis
+		Theodoropoulos Tryfiatis-Tripiaris Tsiklitiras Theofilakis Trikoupis Triantafyllakos Tombazis
+		Versis Vasilakos Vrettos Vouros Vourakis Vavis Valetsiotis Vlachos Vikhos Vrasivanopoulos Vlassis Vourvoulis Voustinos Vakondios Varthalitis
+		Xydras Xenakis Xenopoulos Xylinakos
+		Zoumis Zanos Zacharopoulos Zervinis Zafyropoulos Zarifi
+	}
+
+	male_regal_first_names = {
+		Alexandros
+		Filippos
+		Georgios
+		Ioannis
+		Konstantinos
+		Nikolaos
+		Pavlos
+	}
+	female_regal_first_names = {
+		Livia
+                Julia
+                Annia
+                Aquilia
+                Maria
+                Licinia
+                Aelia
+                Theodora
+                Theodosia	
+                Zoe
+                Helena
+                Irene
+                Martha
+                Anna
+                Philippa
+                Alexandra
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = slavic
+		2 = caucasian_dark_hair
+                3 = caucasian
+	}
+}
+
+slavic_macedonian={
+	color= rgb{ 0 204 102 }
+	religion = orthodox
+
+	traits = { greek_speaking hellenic european_heritage }
+
+        obsessions = {
+		liquor
+	}
+
+	male_common_first_names={
+		 Aleksandar Andrey Asen Atanas Atila Bogdan Bonco Boris Damyan 
+                 Dimitar Dobri Ferdinand Fyodor Georgi Hristo Ilya Ivan Kalin 
+                 Kardam Kimon Kiril Kliment Konstantin Krastyu Leonid Mihail 
+                 Nikifor Niloa Penco Petar Petko Petur Pravoslav Raco Radko 
+                 Radoy Sava Simeon Sotir Stanislav Stanko Stefan Stiliyan Stoyu 
+                 Teodosi Todor Trifon Valko Vasil Veselin Velizar Vulko Alaksandar 
+                 Blagoje Branko Danilo Dejan Orde Dragan Dragoljub Dragutin Gavrilo 
+                 Goran Janko Jovan Koca Kosta Krsto Ljubisa Mihailo Milan Miliutin 
+                 Milivoje Milojko Milosebich Miodrag Mirko Miroslav Momcilo Nebojsa 
+                 Nikola Pavle Peko Petar Radomir Ratko Sava Slobodan Stepa Stojan 
+                 Veljko Vaselien Vladimir Vojislav Zoran Zvezdan
+	}
+	female_common_first_names = {
+		Ana Anastasija Eva Ilina Jana Jovana Marija Mila Sara Sofija
+                Agelaeia Athenais Berenike Blagorodna Cynna Dafina Dusana Eurydike 
+                Kleopatra Krasomila Liljana Marijana Petka Rosa Rozalija Rumena 
+                Smaragda Stratonike Thetima Trena Trenna Vangelija Voulomaga Zlatica
+	}
+	noble_last_names = {
+		
+	}	
+	common_last_names={
+		Agura Balabanov Balkanski Battemberg Blaskov Bradistilov Carakciev 
+                Daskalov Dikov Dimitriev Draganov Ficev Georgiev Hesapchiev Ilyev 
+                Ivanov Kirkov Kovacev Krayonski Kutincev Lazarov Lukov Marinkov 
+                Marinov Mutkorov Naydenov Nazlamov Nikiforov Nikolaev Pakoski 
+                Petroski Radev Saksokoburggotski Savoski Sirakoski Solaroski 
+                Stoyanoski Tenev Todoroski Tsaklev Valkoski Valnaroski Vasilev 
+                Vazoski Velchev Veselinov Zafiroski Zhekoski Zlatarev Zlatev 
+                Arandelovic Belimarkovic Blaznacac Bojovic Brankovic Damjanic 
+                Dapcevic Dragutinovic Grujic Horvatovic Isakovic Jankovic Jokic 
+                Jovanovic Kadijevic Karadordevic Ljubicic Maric Mihailovic 
+                Milutinovic Miloradovic Nad Nedic Novak Obrenovic Ojdanic Panic 
+                Pavkovic Petrovic Popovic Putnik Radulovic Simovic Sokolovic 
+                Stepanovic Vasiljevic Veric Vojvodic Vukotic
+	}
+
+	male_regal_first_names = {
+		Stefan
+	}
+	female_regal_first_names = {
+		Stefan
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = slavic
+                2 = caucasian_brown_hair
+		3 = caucasian
+	}
+}
+
+moesian={
+	color= rgb{ 165 75 40 }
+	religion = orthodox
+
+	traits = { torlak_speaking jugoslav european_heritage }
+
+	male_common_first_names={
+		Alaksandar
+		Arsenije
+		Blagoje
+		Bozidar
+		Branko
+		Danilo
+		Dejan
+		Djordje
+		Dragan
+		Dragisa
+		Dragoljub
+		Dragutin
+		Draza
+		Dusan
+		Gavrilo
+		Goran
+		Janko
+		Jovan
+		Koca
+		Kosta
+		Krsto
+		Ljubisa
+		Mihailo
+		Milan
+		Miliutin
+		Milivoje
+		Milojko
+		Milos
+		Miodrag
+		Mirko
+		Miroslav
+		Momcilo
+		Nebojsa
+		Nikola
+		Pavle
+		Peko
+		Petar
+		Radomir
+		Ratko
+		Sava
+		Slobodan
+		Stepa
+		Stojan
+		Vaselien
+		Veljko
+		Vladimir
+		Vojislav
+		Zivojin
+		Zivota
+		Zoran
+		Zvezdan
+	}
+	female_common_first_names = {
+		Alexandra
+		Anka
+		Darinka
+		Draga
+		Jekaterina
+		Jelena
+		Katarina
+		Maria
+		Milena
+		Natalia
+		Ruza
+		Simeona
+		Stamena
+		Stojna
+		Tomanija
+		Milica
+	}
+	noble_last_names = {
+		Anastasijevic
+		Avakumovic
+		Bogicevic
+		Garasanin
+		Konstantinovic
+		Nenadovic
+		Obrenovic
+	}	
+	common_last_names={
+		Adzic
+		Arandelovic
+		Belimarkovic
+		Blaznacac
+		Bojovic
+		Bozanovic
+		Bozinovic
+		Brankovic
+		Damjanic
+		Dapcevic
+		Dragutinovic
+		Grujic
+		Hadzilic
+		Horvatovic
+		Isakovic
+		Jankovic
+		Jokic
+		Jovanovic
+		Kadijevic
+		Karadordevic
+		Kundak
+		Lesjanin
+		Ljubicic
+		Maric
+		Maricic
+		Mihailovic
+		Miliutinovic
+		Miloradovic
+		Misic
+		Nad
+		Nedic
+		Novak
+		Ojdanic
+		Panic
+		Paskas
+		Pavkovic
+		Pesic
+		Petrovic
+		Popovic
+		Putnik
+		Radulovic
+		Rasic
+		Sijan
+		Simovic
+		Sokolovic
+		Stepanovic
+		Vasiljevic
+		Veric
+		Vojvodic
+		Vukotic
+		Zivkovic
+	}
+
+	male_regal_first_names = {
+		Alaksandar
+		Danilo
+		Mihailo 
+		Milan 
+		Milos
+		Nikola
+		Pavle 
+		Petar
+                Stefan
+	}
+	female_regal_first_names = {
+		Alexandra
+		Darinka 
+		Draga
+		Maria 
+		Milena
+		Natalia
+                Stefan
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = slavic
+	}
+}
+
+bolghars ={
+	color= rgb{ 45 100 70 }
+	religion = sunni
+
+	traits = { bolgar_speaking turkic middle_eastern_heritage }
+
+        obsessions = {
+		tea
+	}
+
+	male_common_first_names={
+		Irhan
+                Kotrag
+                Besim
+                Ahmet
+                İsmail
+                Ibrahim
+                Tahsin
+                Ilya
+                Recep
+                Sotir
+                Stoyu
+                Aleksandar
+                Bogdan
+                Hasan
+		Tuqyi
+                Irkhan
+		Aidar
+		Şilki
+		Batyr
+		Almish 
+                Mikail
+                Ahmad 
+                Ghabdula
+                Talib
+                Mumin 
+                Abd
+                Shilki
+                Almış
+                Ishak 
+	}
+	female_common_first_names = {
+		Anna
+		Ekaterina
+		Hadji
+		Sirma
+		Teodora
+		Todorka		
+	}
+	noble_last_names = {
+		Yiltawar
+	}	
+	common_last_names={
+		
+	}
+
+	male_regal_first_names = {
+		Irhan
+                Kotrag
+                Besim
+                Ahmet
+                İsmail
+                Ibrahim
+                Tahsin
+                Ilya
+                Recep
+                Sotir
+                Stoyu
+                Aleksandar
+                Bogdan
+                Hasan
+		Tuqyi
+                Irkhan
+		Aidar
+		Şilki
+		Batyr
+		Almish 
+                Mikail
+                Ahmad 
+                Ghabdula
+                Talib
+                Mumin 
+                Abd
+                Shilki
+                Almış
+                Ishak 
+	}
+	female_regal_first_names = {
+		Anna
+		Ekaterina
+		Hadji
+		Sirma
+		Teodora
+		Todorka	
+	}
+
+	graphics = mideast_indian
+	ethnicities = {
+                1 = north_caucasian
+                2 = caucasian_dark_hair
+                3 = slavic
+                4 = arab
+	}
+}
+
+romansh ={
+	color= rgb{ 120 140 110 }
+	religion = catholic
+
+	traits = { romansh_speaking swiss_group european_heritage }
+
+        obsessions = {
+		wine
+	}
+
+	male_common_first_names={
+		Alessandro Alexandru Alfonso Ambrogio Amedeo Andrea Andrin Angelo Antonio Anuk Benito Camillo Carlo
+		Cesare Cosmin Costanzo Davide Enrico Ettore Fabrizio Fadri Faustino Federico Felice Ferdinando
+		Fiorenzo Flurin Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+		Liviu Luigi Marco Massimo Matteo Mattia Maurus Nicola Oreste Paolo Pasquale Pietro Prospero
+        	Raffaele Rapoto Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Valentin Victorin Vincenzo Vittorio Viturin
+	}
+	female_common_first_names = {
+		Barbara Julie Maria Rosalie Emilia Adelina Angiola Antonia Assunta Aurelia Barbara Bigna Catarina Claritta Corina Cornelia Dorina Dumina Elisabetta Erica Flura Frena Gelgia Greata Hilaria Ioana Julie Lash Lidia Luisia Luzia Madlaina Maria Melody Monica Nona Salomena Sarina Sereina Tonia Rosalie Teigra
+	}
+	noble_last_names = {
+		Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+		Caviglia Ceccherini Cialdini Cusani d'Absburgo-Toscana Dezza di_Borbone di_Parma di_Robilant di_Savoia
+		di_Savoia-Aosta Emo Fanti Fara Filomarino Garibaldi Giardino Govone Mambretti
+		Menabrea Orengo Pacoret_de_Saint_Bon Pallavicino Pecori-Giraldi Pellion_di_Persano Pelloux Perruchetti Pianelli Porro
+		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Thaon_di Revel Vaccari Zupelli
+	}	
+	common_last_names={
+		
+	}
+
+	male_regal_first_names = {
+		
+	}
+	female_regal_first_names = {
+		Adelina Angiola Antonia Assunta Aurelia Barbara Bigna Catarina Claritta Corina Cornelia Dorina Dumina Elisabetta Erica Flura Frena Gelgia Greata Hilaria Ioana Julie Lash Lidia Luisia Luzia Madlaina Maria Melody Monica Nona Salomena Sarina Sereina Tonia Rosalie Teigra
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = caucasian
+	}
+}
+german_swiss ={
+	color= rgb{ 120 90 60 }
+	religion = protestant
+
+	traits = { german_speaking swiss_group european_heritage }
+
+	male_common_first_names={
+		Aaron Adolf Adrian Ajan Albrecht Alexander Alfons Alois Anton Arthur Ayden Bernhard Christian
+                David Edmund Eduard Eliott Engelbert Eric Ernst Erwin Evan Felix Ferdinand Finn Franz Friedrich Fynn Gebhard Gerhard Gottfried
+                Günther Gustav Heinrich Henry Hermann Horst Ilan Ilay Jakob Joachim Johann Joseph
+                Julius Karl Konrad Kurt Lars Leonhard Leopold Levin Lorenz Lothar Ludwig maël Martin Marthis Maximilian
+                Michael Noa Noel Otto Rayan Raphael Reinhold Rian Rudolf Stefan Theo Theodor Viktor Walter Werner Wilhelm
+	}
+	female_common_first_names = {
+                Alice
+		Anna
+                Arya
+		Barbara
+                Emma
+		Emilie
+                Eva
+                Finja
+		Gertrud
+		Germaine
+                Hannah
+		Henriette
+		Isabelle
+		Johanna
+                Josephine
+		Julie
+		Lydia
+                Lynn
+		Maria
+		Rosalie
+                Sophia
+                Stella
+                Victoria
+	}
+	noble_last_names = {
+		Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach
+		Hoffmann Hummel Köhler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
+		Stolzer Trunk von_Baden von_Benedek von_Böhm-Ermolli von_Brudermann von_Clam-Gallas von_der_Tann von_Dietrich von_Gablenz
+		von_Grünne von_Habsburg von_Hartmann von_Haynau von_Hess von_Hohenhausen von_Hoobreuk von_Hortstein von_Hötzendorf von_Kirbach
+		von_Kobratin von_Schönburg von_Tegetthoff von_Uchatius von_Wittelsbach von_Württemberg von_Zahringen Wagner Wittmann zu_Hohenloh	
+	}	
+	common_last_names={
+		Ador
+		Brenner
+		Calonder
+		Celio
+		Chaudet
+		Comtesse
+		Cotti
+		Deucher
+		Dufour
+		Fogliardi
+		Fornerod
+		Funk
+		Guisan
+		Haab
+		Herzog
+		Knusel
+		Motta
+		Munzinger
+		Naff
+		Ruchet
+		Ruchonnet
+		Schneider
+		Siegwart-Muller
+		Wille
+		Zeni
+		de_Staeel
+	}
+
+	male_regal_first_names = {
+		Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
+                Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
+                Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
+                Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian
+                Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm
+	}
+	female_regal_first_names = {
+		
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = caucasian
+	}
+}
+
+saxon ={
+	color= rgb{ 105 0 20 }
+	religion = protestant
+
+	traits = { saxon_speaking anglo_saxon_group european_heritage }
+
+        obsessions = {
+		tea
+	}
+
+	male_common_first_names={
+		
+	}
+	female_common_first_names = {
+		
+	}
+	noble_last_names = {
+		
+	}	
+	common_last_names={
+		
+	}
+
+	male_regal_first_names = {
+		
+	}
+	female_regal_first_names = {
+		
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = caucasian
+                2 = caucasian_blond
+	}
+}
+
+anglish ={
+	color= rgb{ 255 150 80 }
+	religion = protestant
+
+	traits = { anglish_speaking anglo_saxon_group european_heritage }
+
+        obsessions = {
+		tea
+	}
+
+	male_common_first_names={
+		
+	}
+	female_common_first_names = {
+		
+	}
+	noble_last_names = {
+		
+	}	
+	common_last_names={
+		
+	}
+
+	male_regal_first_names = {
+		
+	}
+	female_regal_first_names = {
+		
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = caucasian
+                2 = caucasian_blond
+	}
+}
+
+frankish ={
+	color= rgb{ 0 0 100 }
+	religion = protestant
+
+	traits = { dutch_speaking beneluxian_culture_group european_heritage }
+
+	male_common_first_names={
+		
+	}
+	female_common_first_names = {
+		
+	}
+	noble_last_names = {
+		
+	}	
+	common_last_names={
+		
+	}
+
+	male_regal_first_names = {
+		
+	}
+	female_regal_first_names = {
+		
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = caucasian
+                2 = caucasian_blond
+	}
+}
+
+roman ={
+	color= rgb{ 205 0 0 }
+	religion = catholic
+
+	traits = { latin_speaking latin_culture_group european_heritage }
+
+        obsessions = {
+		wine
+	}
+
+	male_common_first_names={
+		
+	}
+	female_common_first_names = {
+		
+	}
+	noble_last_names = {
+		
+	}	
+	common_last_names={
+		
+	}
+
+	male_regal_first_names = {
+		
+	}
+	female_regal_first_names = {
+		
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = caucasian
+	}
+}
+
+dalmatian ={
+	color= rgb{ 80 150 80 }
+	religion = catholic
+
+	traits = { dalmatian_speaking latin_culture_group european_heritage }
+
+	male_common_first_names={
+		
+	}
+	female_common_first_names = {
+		
+	}
+	noble_last_names = {
+		
+	}	
+	common_last_names={
+		
+	}
+
+	male_regal_first_names = {
+		
+	}
+	female_regal_first_names = {
+		
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = caucasian
+	}
+}
+
+gaulish ={
+	color= rgb{ 0 155 155 }
+	religion = catholic
+
+	traits = { gaulish_speaking celtic_culture_group european_heritage }
+
+	male_common_first_names={
+		
+	}
+	female_common_first_names = {
+		
+	}
+	noble_last_names = {
+		
+	}	
+	common_last_names={
+		
+	}
+
+	male_regal_first_names = {
+		
+	}
+	female_regal_first_names = {
+		
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = caucasian
+	}
+}
+
+arpitan ={
+	color= rgb{ 159 143 234 }
+	religion = catholic
+
+	traits = { arpatian_speaking latin_culture_group european_heritage }
+
+	male_common_first_names={
+		
+	}
+	female_common_first_names = {
+		
+	}
+	noble_last_names = {
+		Anthoine Bazaine Billot Bonaparte Bosquet Boulanger Bourbaki
+        Bugeaud Caillard Canrobert Courbet Cousin_Mountauban Davout de_Bourbon de_Castellane de_Castelnau de_Gaulle de_MacMahon de_Montaignac de_Saint_Arnaud d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+        Foch Forey Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+        Jaurès Joffre Lebouef Lyautey Murat Nivelle Péllissier Petain Vaillant
+	}	
+	common_last_names={
+		
+	}
+
+	male_regal_first_names = {
+		Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+        Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+        François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+        Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+	}
+	female_regal_first_names = {
+		Mary
+                Margaret
+                Helie
+                Michelle
+		Bonne
+                Maria
+                Catherine
+                Isabella
+	}
+
+	graphics = european
+	ethnicities = {
+                1 = caucasian
+	}
+}
