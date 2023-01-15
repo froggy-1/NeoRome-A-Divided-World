@@ -419,7 +419,7 @@ EAN = {
 
 #### Brandeburg
 
-BRN = {
+BRR = {
 	color = { 121 31 20 }
 	
 	country_type = recognized
