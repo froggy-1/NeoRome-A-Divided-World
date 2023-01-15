@@ -1067,7 +1067,7 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:PRU = {
+		region_state:BRN = {
 			create_pop = {
 				culture = north_german
 				size = 1018800
@@ -1253,7 +1253,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG = {
-		region_state:GSX = {
+		region_state:BRN = {
 			create_pop = {
 				culture = north_german
 				size = 1558704

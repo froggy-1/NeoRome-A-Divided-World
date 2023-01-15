@@ -3276,7 +3276,7 @@
 		}
 	}
 	s:STATE_POMERANIA={
-		region_state:PRU={
+		region_state:BRN={
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -3630,7 +3630,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG={
-		region_state:GSX={
+		region_state:BRN={
 			create_building={
 				building="building_government_administration"
 				level=13
