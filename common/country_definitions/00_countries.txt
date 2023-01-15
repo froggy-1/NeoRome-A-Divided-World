@@ -355,7 +355,7 @@ SCO = {
 }
 
 ENG = {
-	color = { 180 99 58 }
+	color = { 190 75 75 }
 	
 	country_type = recognized
 
@@ -524,7 +524,7 @@ HAN = {
 
 	tier = kingdom
 	
-	cultures = { north_german }
+	cultures = { north_german saxon }
 	capital = STATE_HANNOVER
 	is_named_from_capital = yes
 }
@@ -536,7 +536,7 @@ HES = {
 
 	tier = grand_principality
 	
-	cultures = { north_german }
+	cultures = { north_german frankish }
 	capital = STATE_HESSE
 	is_named_from_capital = yes
 }
@@ -548,7 +548,7 @@ HOL = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { north_german saxon }
 	capital = STATE_SCHLESWIG_HOLSTEIN
 	is_named_from_capital = yes
 }
@@ -675,7 +675,7 @@ PAP = {
 
 	tier = kingdom
 	
-	cultures = { south_italian north_italian }
+	cultures = { roman south_italian north_italian }
 	capital = STATE_LAZIO
 }
 
@@ -883,7 +883,7 @@ SWI = {
 	tier = kingdom
 	
 	capital = STATE_WEST_SWITZERLAND
-	cultures = { swiss }
+	cultures = { swiss german_swiss romansh }
 }
 
 TRS = {

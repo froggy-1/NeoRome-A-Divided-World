@@ -30,7 +30,7 @@ RHI = {
 	tier = kingdom
 	
 	cultures = {
-		north_german
+		frankish north_german
 	}
 	capital = STATE_RHINELAND 
 }
@@ -122,8 +122,19 @@ MAC = {
 
 	tier = kingdom
 	
-	cultures = { bulgarian greek }	
+	cultures = { slavic_macedonian }	
 	capital = STATE_SKOPIA
+}
+
+MCU = {
+	color = { 156  157  90 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { greek_macedonian }	
+	capital = STATE_MACEDONIA 
 }
 
 ### North American colonies ###
@@ -267,7 +278,7 @@ KZA = {
 	
 	tier = kingdom
 	
-	cultures = { Kalmyk tatar mongol }
+	cultures = { bolghars kalmyk }
 	religion = jewish
 	capital = STATE_ASTRAKHAN
 }
@@ -336,7 +347,7 @@ NTH = {
 
 	tier = kingdom
 	
-	cultures = { british }
+	cultures = { anglish }
 	capital = STATE_LANCASHIRE
 }
 
@@ -380,7 +391,7 @@ MRC = {
 
 	tier = kingdom
 	
-	cultures = { british }
+	cultures = { anglish }
 	capital = STATE_MIDLANDS
 }
 
