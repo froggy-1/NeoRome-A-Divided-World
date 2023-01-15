@@ -589,3 +589,14 @@ BTT = {
 		color2 = "black"
 	}
 }
+
+
+BRN = {
+    pattern = "pattern_solid.tga"
+    color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_bicolor_horizontal.dds"
+		color1 = "red"
+	}
+}

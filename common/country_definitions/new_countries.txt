@@ -416,3 +416,16 @@ EAN = {
 	cultures = { british }
 	capital = STATE_EAST_ANGLIA
 }
+
+#### Brandeburg
+
+BRN = {
+	color = { 121 31 20 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german }
+	capital = STATE_BRANDEBURG
+}
