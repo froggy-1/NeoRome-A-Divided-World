@@ -149,6 +149,12 @@
 			country = c:RHI
 			type = puppet
 		}
+
+		create_diplomatic_pact = {
+			country = c:SAF
+			type = puppet
+		}	
+
 		# Colony of Western Australia
 		create_diplomatic_pact = {
 			country = c:WAS
@@ -268,10 +274,6 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SIL
-			type = puppet
-		}	
-		create_diplomatic_pact = {
-			country = c:SAF
 			type = puppet
 		}	
 		# New England
