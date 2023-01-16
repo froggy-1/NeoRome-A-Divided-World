@@ -253,6 +253,7 @@ CPT = {
 	
 	cultures = { misri }
 	capital = STATE_UPPER_EGYPT
+	religion = oriental_orthodox
 }
 
 ### South China ###
