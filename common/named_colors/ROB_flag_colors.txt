@@ -1,0 +1,5 @@
+colors = {
+	1ROB_red = rgb{ 255 0 0 }
+	1ROB_blue = rgb{ 0 57 166 }
+	1ROB_white = rgb{ 255 255 255 }
+}

@@ -1,0 +1,43 @@
+﻿je_rombul_unification = {
+	icon = "gfx/interface/icons/event_icons/unify.dds"
+	should_be_pinned_by_default = yes
+	
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:romanian
+			country_has_primary_culture = cu:bulgarian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:minor_power	#major_power
+		has_technology_researched = multilateral_alliances
+		is_subject = no
+	}
+	
+	immediate = {
+		trigger_event = {
+			id = rombul_unification.1
+			popup = yes
+		}
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = je_ROB_unify
+			exists = c:ROB
+			c:ROB = root
+		}
+	}
+	
+	on_complete = {
+		trigger_event = {
+			id = rombul.2
+		}
+	}
+	
+	fail = {
+			exists = c:ROB
+			NOT = { c:ROB = root }
+	}
+}
