@@ -1212,7 +1212,7 @@
 		}
 	}
 	s:STATE_NEWFOUNDLAND = {
-		region_state:FRA = {
+		region_state:NRS = {
 			create_pop = {
 				culture = inuit
 				size = 7980

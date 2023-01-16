@@ -790,7 +790,7 @@
 		}
 	}
 	s:STATE_TOGO = {
-		region_state:DEN = {
+		region_state:NRS = {
 			create_pop = {
 				culture = akan
 				size = 116308
@@ -1755,7 +1755,7 @@
 		}
 	}
 	s:STATE_SOUTH_CAMEROON = {
-		region_state:SPA = {
+		region_state:SWP = {
 			create_pop = {
 				culture = spanish
 				size = 800
@@ -1769,6 +1769,11 @@
 				culture = fang
 				size = 6400
 			}
+				create_pop = {
+				culture = equatorial_bantu
+				size = 49992
+			}
+			
 		}
 		region_state:FNG = {
 			create_pop = {
@@ -2529,7 +2534,7 @@
 		}
 	}
 	s:STATE_VRYSTAAT = {
-		region_state:ORA = {
+		region_state:SAF = {
 			create_pop = {
 				culture = sotho
 				size = 353400

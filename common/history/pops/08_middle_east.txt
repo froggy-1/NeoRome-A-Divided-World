@@ -794,7 +794,7 @@
 				pop_type = slaves
 			}
 		}
-		region_state:OMA = {
+		region_state:HSS = {
 			create_pop = {
 				culture = persian
 				size = 33100
