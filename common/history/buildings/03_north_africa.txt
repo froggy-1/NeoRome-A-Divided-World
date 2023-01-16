@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_LOWER_EGYPT={
-		region_state:CPT={
+	region_state:EGY={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -101,8 +101,31 @@
 				building= "building_giza_necropolis"
 			}
 		}
+		region_state:CPT={
+			create_building={
+				building="building_wheat_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		}
+		
 	}
 	s:STATE_UPPER_EGYPT={
+
 		region_state:CPT={
 			create_building={
 				building="building_wheat_farm"
@@ -125,7 +148,7 @@
 		}
 	}
 	s:STATE_MIDDLE_EGYPT={
-		region_state:CPT={
+		region_state:EGY={
 			create_building={
 				building="building_government_administration"
 				level=3
