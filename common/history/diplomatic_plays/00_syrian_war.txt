@@ -1,5 +1,5 @@
 ﻿DIPLOMATIC_PLAYS = {
-	c:KAR = {
+	c:EGY = {
 		create_diplomatic_play = {
 			name = "Coptic war"
 		

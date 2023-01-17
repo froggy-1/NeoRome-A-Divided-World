@@ -351,6 +351,10 @@
 		create_diplomatic_pact = {
 			country = c:ARM
 			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:EGY
+			type = puppet
 		}		
 	}
 	c:BIC = {

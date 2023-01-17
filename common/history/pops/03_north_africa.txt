@@ -851,7 +851,7 @@
 	}
 	s:STATE_LIBYA = {
 
-		region_state:CRT = {
+		region_state:CPT = {
 			create_pop = {
 				culture = bedouin
 				size = 171604
