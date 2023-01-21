@@ -2,7 +2,7 @@
 
 POPS = {
 	s:STATE_ECUADOR = {
-		region_state:ECU = {
+		region_state:TWT = {
 			create_pop = {
 				culture = north_andean
 				size = 332100
@@ -241,37 +241,23 @@ POPS = {
 		}
 	}
 	s:STATE_PASTAZA = {
-		region_state:PEU = {
+		region_state:TWT = {
 			create_pop = {
 				culture = amazonian
-				size = 40000
+				size = 72000
 			}
 			create_pop = {
 				culture = south_andean
-				size = 11996
+				size = 13700
 			}
 			create_pop = {
 				culture = quechua
-				size = 4004
-			}
-		}
-		region_state:ECU = {
-			create_pop = {
-				culture = amazonian
-				size = 32000
-			}
-			create_pop = {
-				culture = south_andean
-				size = 1700
-			}
-			create_pop = {
-				culture = quechua
-				size = 3200
+				size = 7204
 			}
 		}
 	}
 	s:STATE_TARAPACA = {
-		region_state:PEU = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 12000
@@ -292,7 +278,7 @@ POPS = {
 		}
 	}
 	s:STATE_ANTOFAGASTA = {
-		region_state:BOL = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 43996
@@ -312,7 +298,7 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_CRUZ = {
-		region_state:BOL = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 28200
@@ -332,7 +318,7 @@ POPS = {
 		}
 	}
 	s:STATE_LA_PAZ = {
-		region_state:BOL = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 220792
@@ -356,7 +342,7 @@ POPS = {
 		}
 	}
 	s:STATE_POTOSI = {
-		region_state:BOL = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 24000
@@ -372,7 +358,7 @@ POPS = {
 		}
 	}
 	s:STATE_CAJAMARCA = {
-		region_state:PEU = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 91804
@@ -397,7 +383,7 @@ POPS = {
 		}
 	}
 	s:STATE_LIMA = {
-		region_state:PEU = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 248000
@@ -422,7 +408,7 @@ POPS = {
 		}
 	}
 	s:STATE_ICA = {
-		region_state:PEU = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 92904
@@ -447,7 +433,7 @@ POPS = {
 		}
 	}
 	s:STATE_AREQUIPA = {
-		region_state:PEU = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 48000
@@ -493,7 +479,7 @@ POPS = {
 		}
 	}
 	s:STATE_JUJUY = {
-		region_state:BOL = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 4000
@@ -749,7 +735,7 @@ POPS = {
 		}
 	}
 	s:STATE_SANTIAGO = {
-		region_state:CHL = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 655608
@@ -761,7 +747,7 @@ POPS = {
 		}
 	}
 	s:STATE_LOS_RIOS = {
-		region_state:CHL = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 204892
@@ -773,7 +759,7 @@ POPS = {
 		}
 	}
 	s:STATE_ARAUCANIA = {
-		region_state:CHL = {
+		region_state:TWT = {
 			create_pop = {
 				culture = south_andean
 				size = 52004
@@ -805,7 +791,7 @@ POPS = {
 		}
 	}
 	s:STATE_ACRE={
-		region_state:BOL = {
+		region_state:TWT = {
 			create_pop = {
 				culture = amazonian
 				size = 15750
