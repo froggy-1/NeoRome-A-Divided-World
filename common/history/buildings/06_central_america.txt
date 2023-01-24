@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_SAN_SALVADOR={
-		region_state:UCA={
+		region_state:MEX={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -59,8 +59,6 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-		}
-		region_state:NRS={
 			create_building={
 				building="building_port"
 				level=1
@@ -68,9 +66,10 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
+
 	}
 	s:STATE_HONDURAS={
-		region_state:UCA={
+		region_state:DRZ={
 			create_building={
 				building="building_maize_farm"
 				level=1
@@ -287,68 +286,33 @@
 		region_state:FRA={
 			create_building={
 				building="building_sugar_plantation"
-				level=3
+				level=5
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_coffee_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:DEN={
-			create_building={
-				building="building_sugar_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:ENG={
-			create_building={
-				building="building_sugar_plantation"
 				level=3
 				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				level=2
-				reserves=1
 				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_port"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
+
+		}
+		region_state:LVN={
+		
+		
 		}
 	}
 	s:STATE_JAMAICA={
