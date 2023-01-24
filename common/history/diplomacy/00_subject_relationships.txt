@@ -428,6 +428,10 @@
 		}		
 	}	
 	c:FRA = {
+		create_diplomatic_pact = {
+			country = c:HAI
+			type = dominion
+		}
 		# Province of Louisiana
 		create_diplomatic_pact = {
 			country = c:LOU
