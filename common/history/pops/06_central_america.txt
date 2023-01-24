@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_SAN_SALVADOR = {
-		region_state:UCA = {
+		region_state:MEX = {
 			create_pop = {
 				culture = central_american
 				size = 428204
@@ -8,7 +8,7 @@
 		}
 	}
 	s:STATE_GUATEMALA = {
-		region_state:UCA = {
+		region_state:MEX = {
 			create_pop = {
 				culture = central_american
 				size = 164404
@@ -18,19 +18,10 @@
 				size = 312000
 			}
 		}
-		region_state:NRS = {
-			create_pop = {
-				culture = afro_caribbean
-				size = 7104
-			}
-			create_pop = {
-				culture = british
-				size = 104
-			}
-		}
+
 	}
 	s:STATE_HONDURAS = {
-		region_state:UCA = {
+		region_state:DRZ = {
 			create_pop = {
 				culture = central_american
 				size = 385204
@@ -147,7 +138,7 @@
 		}
 	}
 	s:STATE_PUERTO_RICO = {
-		region_state:SPA = {
+		region_state:FRA = {
 			create_pop = {
 				culture = caribeno
 				size = 182500
@@ -183,27 +174,11 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 22200
+				size = 52200
 			}
 			create_pop = {
 				culture = afro_antillean
 				size = 216104
-			}
-		}
-		region_state:DEN = {
-			create_pop = {
-				culture = danish
-				size = 3992
-			}
-			create_pop = {
-				culture = afro_caribbean
-				size = 39996
-			}
-		}
-		region_state:ENG = {
-			create_pop = {
-				culture = british
-				size = 34704
 			}
 			create_pop = {
 				culture = afro_caribbean
@@ -212,6 +187,24 @@
 			create_pop = {
 				culture = dutch
 				size = 396
+			}
+		}
+		region_state:LVN = {
+			create_pop = {
+				culture = afro_antillean
+				size = 9104
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 4768
+			}
+			create_pop = {
+				culture = dutch
+				size = 96
+			}
+			create_pop = {
+				culture = north_andean
+				size = 13567
 			}
 		}
 	}

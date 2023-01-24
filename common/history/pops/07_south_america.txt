@@ -74,6 +74,12 @@ POPS = {
 				size = 8000
 			}
 		}
+		region_state:AWW = {
+			create_pop = {
+				culture = amazonian
+				size = 13000
+			}
+		}
 	}
 	s:STATE_ZULIA = {
 		region_state:LVN = {
@@ -173,7 +179,7 @@ POPS = {
 		}
 	}
 	s:STATE_GUAVIARE = {
-		region_state:DRZ = {
+		region_state:LVN = {
 			create_pop = {
 				culture = amazonian
 				size = 88000
@@ -458,7 +464,7 @@ POPS = {
 		}
 	}
 	s:STATE_URUGUAY = {
-		region_state:RUR = {
+		region_state:ARG = {
 			create_pop = {
 				culture = platinean
 				size = 95192
@@ -492,8 +498,6 @@ POPS = {
 				culture = platinean
 				size = 4000
 			}
-		}
-		region_state:ARG = {
 			create_pop = {
 				culture = platinean
 				size = 29304
@@ -517,10 +521,10 @@ POPS = {
 		}
 	}
 	s:STATE_BAJO_PARAGUAY = {
-		region_state:PRG = {
+		region_state:GNI = {
 			create_pop = {
 				culture = platinean
-				size = 308396
+				size = 2396
 			}
 			create_pop = {
 				culture = guarani
@@ -529,16 +533,11 @@ POPS = {
 			create_pop = {
 				culture = guarani
 				religion = catholic
-				size = 282240
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 14560
+				size = 22240
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 17996
+				size = 7864
 			}
 		}
 	}
@@ -559,15 +558,10 @@ POPS = {
 			}
 			create_pop = {
 				culture = patagonian
-				size = 2000
+				size = 32000
 			}
 		}
-		region_state:PAT = {
-			create_pop = {
-				culture = patagonian
-				size = 30000
-			}		
-		}
+
 	}
 	s:STATE_PATAGONIA = {
 		region_state:THL = {
@@ -588,7 +582,7 @@ POPS = {
 		}
 	}
 	s:STATE_RIO_NEGRO = {
-		region_state:ARG = {
+		region_state:TWT = {
 			create_pop = {
 				culture = patagonian
 				size = 6880
@@ -607,7 +601,7 @@ POPS = {
 				size = 20
 			}
 		}
-		region_state:PAT = {
+		region_state:ARG = {
 			create_pop = {
 				culture = patagonian
 				size = 17000
@@ -688,7 +682,7 @@ POPS = {
 		}
 	}
 	s:STATE_TUCUMAN = {
-		region_state:ARG = {
+		region_state:TWT = {
 			create_pop = {
 				culture = platinean
 				size = 76078
@@ -817,7 +811,7 @@ POPS = {
 				size = 210
 			}
 		}
-		region_state:LVN = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = amazonian
 				size = 36800
@@ -839,19 +833,19 @@ POPS = {
 		region_state:AWW = { # I have literally no idea what number to put here.
 			create_pop = {
 				culture = amazonian
-				size = 10000
+				size = 9451
 			}
 		}		
 	}
 	s:STATE_MATO_GROSSO = {
-		region_state:PRG = {
+		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size = 38000
+				size = 8000
 			}
 			create_pop = {
 				culture = platinean
-				size = 4000
+				size = 1000
 			}
 		}
 		region_state:IBZ = {
@@ -870,7 +864,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = guarani
-				size = 30000
+				size = 69000
 			}
 			create_pop = {
 				culture = amazonian
@@ -879,7 +873,7 @@ POPS = {
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {
-		region_state:RUR = {
+		region_state:ARG = {
 			create_pop = {
 				culture = brazilian
 				size = 116681
@@ -1154,7 +1148,7 @@ POPS = {
 	}
 	s:STATE_PARA = {
 
-		region_state:LVN = {
+		region_state:IBZ = {
 			create_pop = {
 				culture = brazilian
 				size = 111297
@@ -1179,6 +1173,18 @@ POPS = {
 			create_pop = {
 				culture = french
 				size = 416
+			}
+		}
+		region_state:AWW= {
+
+
+			create_pop = {
+				culture = amazonian
+				size = 43800
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 3646
 			}
 		}
 	}
