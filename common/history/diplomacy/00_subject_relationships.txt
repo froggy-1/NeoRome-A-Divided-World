@@ -357,7 +357,7 @@
 			type = puppet
 		}		
 	}
-	c:BIC = {
+	c:SPA = {
 		create_diplomatic_pact = {
 			country = c:BAS
 			type = puppet
@@ -407,13 +407,11 @@
 			type = puppet
 		}	
 		create_diplomatic_pact = {
-			country = c:JAI
-			type = puppet
-		}
-		create_diplomatic_pact = {
 			country = c:BER
 			type = puppet
 		}
+	}
+	c:PAN = {
 		create_diplomatic_pact = {
 			country = c:JOD
 			type = puppet
@@ -423,15 +421,23 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
+			country = c:JAI
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:JAS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SIN
 			type = puppet
 		}		
 	}	
 	c:FRA = {
-		create_diplomatic_pact = {
-			country = c:HAI
-			type = dominion
-		}
 		# Province of Louisiana
 		create_diplomatic_pact = {
 			country = c:LOU

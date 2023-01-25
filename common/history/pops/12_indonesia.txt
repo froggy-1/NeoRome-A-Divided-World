@@ -553,73 +553,25 @@
 		region_state:ACE = {
 			create_pop = {
 				culture = sumatran
-				size = 255996
+				size = 275996
 			}
 			create_pop = {
 				culture = yue
-				size = 9800
+				size = 14800
 			}
 			create_pop = {
 				culture = batak
-				size = 62309
+				size = 112309
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = batak
-				size = 12000
+				size = 20000
 			}
 			create_pop = {
 				culture = batak
 				religion = sunni
-				size = 14002
-			}
-		}
-		region_state:SAK = {
-			create_pop = {
-				culture = sumatran
-				size = 116019
-			}
-			create_pop = {
-				culture = yue
-				size = 3600
-			}
-			create_pop = {
-				culture = batak
-				size = 22012
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = batak
-				size = 6800
-			}
-			create_pop = {
-				culture = batak
-				religion = sunni
-				size = 8402
-			}
-		}
-		region_state:DEI = {
-			create_pop = {
-				culture = sumatran
-				size = 12040
-			}
-			create_pop = {
-				culture = yue
-				size = 200
-			}
-			create_pop = {
-				culture = batak
-				size = 32788
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = batak
-				size = 2300
-			}
-			create_pop = {
-				culture = batak
-				religion = sunni
-				size = 3287
+				size = 20002
 			}
 			create_pop = {
 				culture = batak

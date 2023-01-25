@@ -120,7 +120,7 @@
 		}
 	}
 	s:STATE_DELHI={
-		region_state:BIC={
+		region_state:MUG={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -216,7 +216,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BIC={
+		region_state:SPA={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -514,7 +514,7 @@
 				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:BIC={
+		region_state:SPA={
 		}
 	}
 	s:STATE_NAGPUR={
@@ -526,7 +526,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:HYD={
+		region_state:SPA={
 			create_building={
 				building="building_barracks"
 				level=5
@@ -844,7 +844,7 @@
 		}
 	}
 	s:STATE_CIRCARS={
-		region_state:BIC={
+		region_state:SPA={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1096,7 +1096,7 @@
 		}
 	}
 	s:STATE_BOMBAY={
-		region_state:POR={
+		region_state:NRS={
 			create_building={
 				building="building_dye_plantation"
 				level=2
@@ -1110,7 +1110,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:BIC={
+		region_state:SPA={
 			create_building={
 				building="building_government_administration"
 				level=8

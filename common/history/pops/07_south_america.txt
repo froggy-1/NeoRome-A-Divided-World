@@ -464,7 +464,7 @@ POPS = {
 		}
 	}
 	s:STATE_URUGUAY = {
-		region_state:ARG = {
+		region_state:RUR = {
 			create_pop = {
 				culture = platinean
 				size = 95192
@@ -521,7 +521,7 @@ POPS = {
 		}
 	}
 	s:STATE_BAJO_PARAGUAY = {
-		region_state:GNI = {
+		region_state:ARG = {
 			create_pop = {
 				culture = platinean
 				size = 2396
@@ -838,7 +838,7 @@ POPS = {
 		}		
 	}
 	s:STATE_MATO_GROSSO = {
-		region_state:GNI = {
+		region_state:ARG = {
 			create_pop = {
 				culture = guarani
 				size = 8000
@@ -873,7 +873,7 @@ POPS = {
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {
-		region_state:ARG = {
+		region_state:RUR = {
 			create_pop = {
 				culture = brazilian
 				size = 116681

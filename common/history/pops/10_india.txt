@@ -104,7 +104,7 @@
 		}
 	}
 	s:STATE_DELHI = {
-		region_state:BIC = {
+		region_state:MUG = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -198,7 +198,7 @@
 				size = 34000
 			}
 		}
-		region_state:BIC = {
+		region_state:SPA = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -393,7 +393,7 @@
 				size = 1000 
 			}
 		}
-		region_state:BIC = {
+		region_state:SPA = {
 			create_pop = {
 				culture = marathi
 				size = 3239096
@@ -466,7 +466,7 @@
 				size = 2656912
 			}
 		}
-		region_state:BIC = {
+		region_state:MUG = {
 			create_pop = {
 				culture = nepali
 				size = 405027
@@ -527,7 +527,7 @@
 				size = 11000
 			}
 		}
-		region_state:HYD = {
+		region_state:SPA = {
 			create_pop = {
 				culture = marathi
 				size = 1351630
@@ -900,7 +900,7 @@
 				size = 20200
 			}
 		}
-		region_state:BIC = {
+		region_state:SPA = {
 			create_pop = {
 				culture = oriya
 				size = 869092
@@ -921,7 +921,7 @@
 		}
 	}
 	s:STATE_CIRCARS = {
-		region_state:BIC = {
+		region_state:SPA = {
 			create_pop = {
 				culture = telegu
 				size = 9712168
@@ -1144,7 +1144,7 @@
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:SPA = {
+		region_state:NRS = {
 			create_pop = {
 				culture = marathi
 				religion = catholic
@@ -1159,7 +1159,7 @@
 				size = 5681
 			}
 		}
-		region_state:BIC = {
+		region_state:SPA = {
 			create_pop = {
 				culture = marathi
 				size = 10312854
