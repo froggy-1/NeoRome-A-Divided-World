@@ -1954,6 +1954,32 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
+		region_state:SFO={
+			create_building={
+				building="building_furniture_manufacturies"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture" "pm_luxury_furniture" "pm_automation_disabled" "pm_merchant_guilds_building_furniture_manufacturies" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
+			}
+			create_building={
+				building="building_logging_camp"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
 	}
 	s:STATE_SLOVENIA={
 		region_state:ABH={
@@ -1984,7 +2010,7 @@
 		}
 	}
 	s:STATE_DALMATIA={
-		region_state:PAP={
+		region_state:DLM={
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -2058,7 +2084,7 @@
 		}
 	}
 	s:STATE_SLAVONIA={
-		region_state:HUN={
+		region_state:ABH={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -2082,6 +2108,14 @@
 				level=5
 				reserves=1
 				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:SER={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -2120,18 +2154,10 @@
 		}
 	}
 	s:STATE_MONTENEGRO={
-		region_state:KAR={
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-		}
 		region_state:MON={
 			create_building={
 				building="building_livestock_ranch"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
@@ -2144,6 +2170,26 @@
 		}
 	}
 	s:STATE_NORTHERN_SERBIA={
+		region_state:BNT={
+			create_building={
+				building="building_livestock_ranch"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_vineyards" }
+			}
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_wound_dressing" "pm_irregular_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_cannon_artillery" }
+			}
+		}
 		region_state:SER={
 			create_building={
 				building="building_livestock_ranch"
@@ -2167,6 +2213,26 @@
 	}
 	s:STATE_SOUTHERN_SERBIA={
 		region_state:SER={
+			create_building={
+				building="building_livestock_ranch"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
+			}			
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:ALB={
 			create_building={
 				building="building_livestock_ranch"
 				level=3

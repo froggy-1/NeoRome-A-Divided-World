@@ -226,7 +226,7 @@
 	s:STATE_CRIMEA = {
 		region_state:RUS = {
 			create_pop = {
-				culture = tatar
+				culture = moesian
 				size = 90400
 			}
 			create_pop = {
@@ -316,15 +316,19 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 786108
+				size = 319508
+			}
+			create_pop = {
+				culture = hungarian
+				size = 406108
 			}
 			create_pop = {
 				culture = russian
-				size = 40008
+				size = 45008
 			}
 			create_pop = {
 				culture = tatar
-				size = 5000
+				size = 9200
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -348,7 +352,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 786108
+				size = 796108
+			}
+			create_pop = {
+				culture = hungarian
+				size = 40108
 			}
 			create_pop = {
 				culture = south_italian
@@ -823,13 +831,13 @@
 		}
 	}
 	s:STATE_CENTRAL_HUNGARY = {
-		region_state:HUN = {
+		region_state:ABH = {
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				size = 989200
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = protestant
 				size = 932400
 			}
@@ -838,7 +846,7 @@
 				size = 149596
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = jewish
 				size = 71996
 			}
@@ -849,9 +857,9 @@
 		}
 	}
 	s:STATE_BEKES = {
-		region_state:HUN = {
+		region_state:ABH = {
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				size = 189292
 			}
 			create_pop = {
@@ -859,7 +867,7 @@
 				size = 19996
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = protestant
 				size = 288000
 			}
@@ -880,16 +888,16 @@
 				size = 20000
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = jewish
 				size = 16004
 			}
 		}
 	}
 	s:STATE_TRANSDANUBIA = {
-		region_state:HUN = {
+		region_state:ABH = {
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				size = 1375796
 			}
 			create_pop = {
@@ -897,7 +905,7 @@
 				size = 60000
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = protestant
 				size = 316400
 			}
@@ -915,7 +923,7 @@
 				size = 128000
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = jewish
 				size = 35996
 			}
@@ -926,13 +934,13 @@
 		}
 	}
 	s:STATE_DELVIDEK = {
-		region_state:HUN = {
+		region_state:BNT = {
 			create_pop = {
 				culture = south_german
 				size = 197200
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				size = 160000
 			}
 			create_pop = {
@@ -954,9 +962,9 @@
 		}
 	}
 	s:STATE_BANAT = {
-		region_state:HUN = {
+		region_state:BNT = {
 			create_pop = {
-				culture = south_german
+				culture = albanian
 				size = 312640
 			}
 			create_pop = {
@@ -964,7 +972,7 @@
 				size = 444620
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				size = 57228
 			}
 			create_pop = {
@@ -972,7 +980,7 @@
 				size = 62296
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = jewish
 				size = 732
 			}
@@ -985,7 +993,7 @@
 				size = 245256
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = protestant
 				size = 64956
 			}
@@ -994,7 +1002,7 @@
 	s:STATE_WEST_SLOVAKIA = {
 		region_state:ABH = {
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				size = 237000
 			}
 			create_pop = {
@@ -1010,7 +1018,7 @@
 				size = 244000
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = protestant
 				size = 212396
 			}
@@ -1027,7 +1035,7 @@
 	s:STATE_EAST_SLOVAKIA = {
 		region_state:ABH = {
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				size = 150848
 			}
 			create_pop = {
@@ -1043,7 +1051,7 @@
 				size = 164000
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = protestant
 				size = 168452
 			}
@@ -1064,12 +1072,12 @@
 	s:STATE_SOUTHERN_TRANSYLVANIA = {
 		region_state:TRS = {
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = protestant
 				size = 132004
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				size = 60004
 			}
 			create_pop = {
@@ -1093,7 +1101,7 @@
 	s:STATE_NORTHERN_TRANSYLVANIA = {
 		region_state:TRS = {
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				religion = protestant
 				size = 286000
 			}
@@ -1110,7 +1118,7 @@
 				size = 164000
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				size = 142000
 			}
 			create_pop = {
@@ -1134,7 +1142,7 @@
 				size = 20004
 			}
 			create_pop = {
-				culture = hungarian
+				culture = moesian
 				size = 11996
 			}
 			create_pop = {

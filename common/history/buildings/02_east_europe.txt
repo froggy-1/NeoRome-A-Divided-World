@@ -1116,7 +1116,7 @@
 		}
 	}
 	s:STATE_BANAT={
-		region_state:HUN={
+		region_state:BNT={
 			create_building={
 				building="building_wheat_farm"
 				level=3
