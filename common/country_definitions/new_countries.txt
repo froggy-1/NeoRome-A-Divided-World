@@ -430,3 +430,38 @@ BRR = {
 	cultures = { north_german }
 	capital = STATE_BRANDEBURG
 }
+
+#### Paleo Balkanic
+
+SFO = {
+	color = { 178 15 20 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { albanian }
+	capital = STATE_BULGARIA
+}
+
+BNT = {
+	color = { 175 59 50 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { albanian }
+	capital = STATE_BANAT
+}
+
+DLM = {
+	color = { 105 100 240 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { dalmatian }
+	capital = STATE_DALMATIA
+}

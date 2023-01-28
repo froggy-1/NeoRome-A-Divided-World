@@ -14,11 +14,6 @@ PSS = {
 	color1 = "red"
 
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = color2
-		color2 = color3
-	}
-	colored_emblem = {
 		texture = "ce_cross_order_christ.dds"
 		color1 = white
 		instance = { scale = { 0.75 0.75 } }
@@ -600,4 +595,38 @@ BRR = {
 		color1 = "white"
 		color2 = "red"
 	}
+}
+
+
+
+DLM = {
+    pattern = "pattern_solid.tga"
+    color1 = "light_blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "light_blue"
+	}
+}
+
+BNT = {
+    pattern = "pattern_solid.tga"
+    color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "yellow"
+	}
+}
+
+SFO = {
+    pattern = "pattern_solid.tga"
+    color1 = "light_blue"
+
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = "black"
+    	}
 }
