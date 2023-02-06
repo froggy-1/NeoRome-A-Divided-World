@@ -1,0 +1,34 @@
+﻿namespace = hbc
+
+hbc.1 = {
+	type = country_event
+	placement = ROOT
+	
+	title = hbc.1.t
+	desc = hbc.1.d
+	flavor = hbc.1.f
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+   	trigger = {
+     	   	exists = c:HBC
+   	     	this = c:HBC
+		year > 1839.1.1	
+	}
+
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	duration = 3
+	
+	option = {
+		name = hbc.1.a
+
+		create_diplomatic_play = {
+			name = "Inuit wars"
+			war = yes
+			type = dp_annex_war
+			target_state = s:STATE_NUNAVUT.region_state:NUN
+		}
+	}
+}

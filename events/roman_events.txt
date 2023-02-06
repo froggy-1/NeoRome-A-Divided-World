@@ -45,17 +45,66 @@ rome.1 = {
 		name = rome.1.a
 
 		create_diplomatic_play = {
-			name = "Illyrian wars"
-			war = yes
-			type = dp_annex_war
-			target_state = s:STATE_MONTENEGRO.region_state:MON
-		}
-
-		create_diplomatic_play = {
-			name = "Greek wars"
+			name = "Epirus wars"
 			war = yes
 			type = dp_annex_war
 			target_state = s:STATE_ALBANIA.region_state:EPR
+		}
+	}
+}
+
+
+rome.2 = {
+	type = country_event
+	placement = ROOT
+	
+	title = rome.2.t
+	desc = rome.2.d
+	flavor = rome.2.f
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	immediate = {
+		if = {
+			limit = {
+				c:TUN = { is_subject_of = c:PAP }
+			}
+ 			c:PAP = {
+ 				annex = c:TUN
+			}	
+		}
+		if = {
+			limit = {
+				c:ION = { is_subject_of = c:PAP }
+			}
+ 			c:PAP = {
+ 				annex = c:ION
+			}	
+		}
+    	}
+
+   	 trigger = {
+     	   	exists = c:PAP
+   	     	this = c:PAP
+		year > 1842.1.1
+		NOT = { exists = c:ITA 
+			exists = c:EPR 
+		}	
+	}
+
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	duration = 3
+	
+	option = {
+		name = rome.2.a
+
+		create_diplomatic_play = {
+			name = "Illyrian wars"
+			war = yes
+			type = dp_annex_war
+			target_state = s:STATE_DALMATIA.region_state:DLM
 		}
 	}
 }
