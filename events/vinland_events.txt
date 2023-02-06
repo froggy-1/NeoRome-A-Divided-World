@@ -28,7 +28,7 @@ hbc.1 = {
 			name = "Inuit wars"
 			war = yes
 			type = dp_annex_war
-			target_state = s:STATE_NUNAVUT.region_state:NUN
+			target_state = s:STATE_NUNAVUT.region_state:NNV
 		}
 	}
 }
