@@ -1,0 +1,31 @@
+DIPLOMATIC_PLAYS = {
+	c:ONT = {
+		create_diplomatic_play = {
+			name = quebec_war_of_independence
+		
+			target_state = s:STATE_QUEBEC.region_state:QUE
+			
+			war = yes
+			
+			type = dp_return_state
+			
+			add_war_goal = {
+				holder = c:ONT
+				type = return_state
+				target_state = s:STATE_QUEBEC.region_state:QUE
+			}		
+		}	
+	}	
+	c:QUE = {
+		create_diplomatic_play = {
+			name = quebec_war_of_independence
+		
+			target_state = s:STATE_QUEBEC.region_state:QUE
+			
+			war = yes
+			
+			type = dp_annex_war
+			
+		}	
+	}
+}
