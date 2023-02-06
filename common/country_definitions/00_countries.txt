@@ -2172,7 +2172,7 @@ QUE = {
 	
 	tier = principality
 	
-	cultures = { franco_canadian }
+	cultures = { vinlander }
 	capital = STATE_QUEBEC
 	
 	is_named_from_capital = yes
@@ -2185,7 +2185,7 @@ HBC = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian }
+	cultures = { vinlander }
 	capital = STATE_MANITOBA
 }
 
@@ -2196,7 +2196,7 @@ ONT = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian }
+	cultures = { vinlander }
 	capital = STATE_ONTARIO
 	is_named_from_capital = yes
 }
@@ -2568,7 +2568,7 @@ ORG = {
 	
 	tier = principality
 	
-	cultures = { yankee anglo_canadian }
+	cultures = { cascadian }
 	capital = STATE_OREGON
 }
 
@@ -2634,7 +2634,7 @@ ARP = {
 
 	tier = principality
 	
-	cultures = { siouan }
+	cultures = { athabaskan }
 	capital = STATE_COLORADO
 }
 
@@ -3722,7 +3722,7 @@ UOM = {
 
 	tier = principality
 	
-	cultures = { yankee }
+	cultures = { vinlander }
 	capital = STATE_MICHIGAN
 	is_named_from_capital = yes
 }
