@@ -353,7 +353,7 @@
 		}
 	}
 	s:STATE_COLORADO={
-		region_state:MEX={
+		region_state:LOU={
 		}
 		region_state:ARP={
 		}
@@ -363,12 +363,10 @@
 		}
 		region_state:LKT={
 		}
-		region_state:ARP={
+		region_state:LOU={
 		}
 	}
 	s:STATE_MONTANA={
-		region_state:LOU={
-		}
 		region_state:ABS={
 		}
 		region_state:LKT={
@@ -404,8 +402,6 @@
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
-		}
-		region_state:COM={
 		}
 	}
 	s:STATE_ARKANSAS={
@@ -459,7 +455,7 @@
 	s:STATE_MINNESOTA={
 		region_state:UOM={
 		}
-		region_state:LOU={
+		region_state:LKT={
 		}
 	}
 	s:STATE_WISCONSIN={
@@ -1241,8 +1237,6 @@
 		}
 	}
 	s:STATE_UTAH={
-		region_state:CAL={
-		}
 		region_state:NVJ={
 		}
 		region_state:UTE={
@@ -1494,12 +1488,18 @@
 		}
 	}
 	s:STATE_NEWFOUNDLAND={
-		region_state:ENG={
+		region_state:ONT={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -1556,7 +1556,7 @@
 		}
 	}
 	s:STATE_YUKON_TERRITORY={
-		region_state:ASK={
+		region_state:ATB={
 		}
 	}
 	s:STATE_NORTHWEST_TERRITORIES={
@@ -1565,6 +1565,8 @@
 	}
 	s:STATE_NUNAVUT={
 		region_state:HBC={
+		}
+		region_state:NNV={
 		}
 	}
 	s:STATE_BERMUDA={
@@ -1584,7 +1586,7 @@
 		}
 	}
 	s:STATE_TEXAS={
-		region_state:TEX={
+		region_state:LOU={
 			create_building={
 				building="building_maize_farm"
 				level=1
@@ -1604,17 +1606,14 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry_conscription" "pm_cavalry_scouts_conscription" "pm_no_specialists_conscription" "pm_cannon_artillery_conscription" }
 			}				
 		}
-		region_state:MEX={
-		}
-		region_state:COM={
-		}
+
 	}
 	s:STATE_NEVADA={
 		region_state:CAL={
 		}
 	}
 	s:STATE_ARIZONA={
-		region_state:CAL={
+		region_state:MEX={
 		}
 		region_state:NVJ={
 		}
@@ -1630,7 +1629,7 @@
 		}
 	}
 	s:STATE_CALIFORNIA={
-		region_state:CAL={
+		region_state:ORG={
 			create_building={
 				building="building_maize_farm"
 				level=1
