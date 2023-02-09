@@ -585,7 +585,6 @@ BTT = {
 	}
 }
 
-
 BRR = {
     pattern = "pattern_solid.tga"
     color1 = "white"
@@ -596,8 +595,6 @@ BRR = {
 		color2 = "red"
 	}
 }
-
-
 
 DLM = {
     pattern = "pattern_solid.tga"
@@ -628,5 +625,16 @@ SFO = {
 	colored_emblem = {
 		texture = "ce_cross_england.dds"
 		color1 = "black"
+    	}
+}
+
+MRT = {
+    pattern = "pattern_solid.tga"
+    color1 = "orange"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "orange"
     	}
 }

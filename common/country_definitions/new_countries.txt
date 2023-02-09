@@ -465,3 +465,16 @@ DLM = {
 	cultures = { dalmatian }
 	capital = STATE_DALMATIA
 }
+
+##### Marathi
+
+MRT = {
+	color = { 195 105 0 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { marathi }
+	capital = STATE_BOMBAY
+}
