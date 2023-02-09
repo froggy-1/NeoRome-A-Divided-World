@@ -198,7 +198,7 @@
 				size = 34000
 			}
 		}
-		region_state:SPA = {
+		region_state:MRT = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -393,7 +393,7 @@
 				size = 1000 
 			}
 		}
-		region_state:SPA = {
+		region_state:MRT = {
 			create_pop = {
 				culture = marathi
 				size = 3239096
@@ -527,7 +527,7 @@
 				size = 11000
 			}
 		}
-		region_state:SPA = {
+		region_state:MRT = {
 			create_pop = {
 				culture = marathi
 				size = 1351630

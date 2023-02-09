@@ -216,7 +216,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:SPA={
+		region_state:MRT={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -526,7 +526,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:SPA={
+		region_state:MRT={
 			create_building={
 				building="building_barracks"
 				level=5
@@ -840,7 +840,7 @@
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 		}
-		region_state:BIC={
+		region_state:SPA={
 		}
 	}
 	s:STATE_CIRCARS={

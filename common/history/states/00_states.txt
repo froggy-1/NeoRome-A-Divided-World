@@ -3675,7 +3675,7 @@ STATES = {
 			owned_provinces = { x52001D x66337F x5CBFF7 xD64336 x7884D6 x6B7184 x4605A8 }
 		}
 		create_state = {
-			country = c:SPA
+			country = c:MRT
 			owned_provinces = { x03614F x745647 x9CDEF7 xD42EF4 xDA84A6 xFE794D xE167A8 xE67BF6 xCC1F79 }
 		}
 		create_state = {
@@ -3770,7 +3770,7 @@ STATES = {
 			owned_provinces = { x51E979 xEFD0DF }
 		}
 		create_state = {
-			country = c:SPA
+			country = c:MRT
 			owned_provinces = { x9E6DB9 x6170A0 x5FEE46 x9D79AD xDB0DEC x58E042 x903020 x987B84 x650D91 x68D277 xEB362A x0D7633 x1A0456 xA14BC3 x6D9182 x10B021 xD93D0D x26C3A2 x6E192A xA06520 xAAE528 xAD6D79 x19F551 }
 		}
 		
@@ -3823,7 +3823,7 @@ STATES = {
 			owned_provinces = { x7F01B0 xE070A0 xBBC0A2 x923D4D x0CE121 x7D9692 x4E84EF x669ECB xACD960 x43F651 x41D87C x564B78 x9EA436 xD99008 x1405D1 x337F6C xA03160 xA3C721 xC8BC69 xBEE076 x4AAE9F xFD9E2F }
 		}
 		create_state = {
-			country = c:SPA
+			country = c:MRT
 			owned_provinces = { xD0B0A0 x26284F x4020A0 x61F0A0 xB4FE19 x7D8325 x6738CF x52F672 x277419 x048AD9 x63A78D xBF1DC0 xDC471F x117021 x63AA19 x4333C1 xEC8496 }
 		}		
 
