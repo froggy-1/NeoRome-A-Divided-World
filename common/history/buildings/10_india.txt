@@ -1096,7 +1096,7 @@
 		}
 	}
 	s:STATE_BOMBAY={
-		region_state:NRS={
+		region_state:SPA={
 			create_building={
 				building="building_dye_plantation"
 				level=2
@@ -1110,7 +1110,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:SPA={
+		region_state:MRT={
 			create_building={
 				building="building_government_administration"
 				level=8

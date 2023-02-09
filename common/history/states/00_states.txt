@@ -3779,12 +3779,12 @@ STATES = {
 	}
 	s:STATE_BOMBAY = {
 		create_state = {
-			country = c:NRS
+			country = c:SPA
 			owned_provinces = { x51F0A0 }
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:SPA
+			country = c:MRT
 			owned_provinces = { xB0D0E0 xEBE18C x5B30D1 xF8B0CF xEBD7BE x90B021 x195332 x2D4B90 x6CC5CE xDDFDE6 x53A379 x3E5505 x1B071A xD4CACE x1C8B97 x9031A0 xCC722D xB863FE xE01853 xC9CD8E x11B0A0 xCF3817 x187C37 xD6660F x4F5C91 x40CE40 xE73C3C x1131A0 x7629BF x47EE55 x33E560 x4D118A x052B29 xD04F5D x405FB4 xD070A0 xED0654 x42ACA6 }
 		}
 		

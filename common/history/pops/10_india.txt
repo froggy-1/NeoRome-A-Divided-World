@@ -1144,7 +1144,7 @@
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:NRS = {
+		region_state:SPA = {
 			create_pop = {
 				culture = marathi
 				religion = catholic
@@ -1159,7 +1159,7 @@
 				size = 5681
 			}
 		}
-		region_state:SPA = {
+		region_state:MRT = {
 			create_pop = {
 				culture = marathi
 				size = 10312854
