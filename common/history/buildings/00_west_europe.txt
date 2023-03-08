@@ -3562,7 +3562,7 @@
 				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:BAV={
+		region_state:ABH={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -3932,7 +3932,7 @@
 		}
 	}
 	s:STATE_BAVARIA={
-		region_state:BAV={
+		region_state:ABH={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -3996,7 +3996,7 @@
 		}
 	}
 	s:STATE_FRANCONIA={
-		region_state:BAV={
+		region_state:ABH={
 			create_building={
 				building="building_government_administration"
 				level=3

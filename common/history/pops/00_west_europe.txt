@@ -1211,7 +1211,7 @@
 				size = 192992
 			}
 		}
-		region_state:BAV= {
+		region_state:ABH= {
 			create_pop = {
 				culture = south_german
 				size = 251600
@@ -1426,7 +1426,7 @@
 		}
 	}
 	s:STATE_BAVARIA = {
-		region_state:BAV = {
+		region_state:ABH = {
 			create_pop = {
 				culture = south_german
 				size = 1682000
@@ -1443,7 +1443,7 @@
 		}
 	}
 	s:STATE_FRANCONIA = {
-		region_state:BAV = {
+		region_state:ABH = {
 			create_pop = {
 				culture = south_german
 				size = 1051792
