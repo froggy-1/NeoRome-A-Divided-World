@@ -478,3 +478,29 @@ MRT = {
 	cultures = { marathi }
 	capital = STATE_BOMBAY
 }
+
+#### Mingao
+
+AU1 = {
+	color = { 218 163 255 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { han }
+	capital = STATE_VICTORIA
+}
+
+#### New Rotterdam
+
+AU2 = {
+	color = { 91 101 29 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { dutch }
+	capital = STATE_WESTERN_AUSTRALIA
+}
