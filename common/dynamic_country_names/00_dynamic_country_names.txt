@@ -2336,3 +2336,46 @@ ONT = { # Vinland
 		}
 	}
 }
+
+
+AU2 = { # New Rotterdam Company
+	dynamic_country_name = {
+		name = dyn_c_new_rotterdam_company
+		adjective = dyn_c_new_rotterdam_company_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:NET
+			c:NET = {
+				has_diplomatic_pact = {
+					who = c:AU2
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+AU1 = { # Mingao
+	dynamic_country_name = {
+		name = dyn_c_mingao
+		adjective = dyn_c_mingao_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:MNG
+			c:MNG = {
+				has_diplomatic_pact = {
+					who = c:AU1
+					type = vassal
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
