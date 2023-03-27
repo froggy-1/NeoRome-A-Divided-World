@@ -147,7 +147,7 @@ VIR = {
 
 	tier = kingdom
 	
-	cultures = { dixie yankee }	
+	cultures = { virginian }	
 	capital = STATE_VIRGINIA
 }
 
@@ -158,7 +158,7 @@ NWY = {
 
 	tier = kingdom
 	
-	cultures = { yankee }	
+	cultures = { hudsonian }	
 	capital = STATE_NEW_YORK
 }
 
@@ -169,7 +169,7 @@ FLR = {
 
 	tier = kingdom
 	
-	cultures = { dixie }	
+	cultures = { caribeno }	
 	capital = STATE_FLORIDA
 }
 
@@ -191,7 +191,7 @@ UGE = {
 
 	tier = kingdom
 	
-	cultures = { dixie }	
+	cultures = { seorsian }	
 	capital = STATE_GEORGIA
 }
 
