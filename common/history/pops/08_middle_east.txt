@@ -1228,7 +1228,7 @@
 		region_state:TBZ = {
 			create_pop = {
 				culture = turkish
-				size = 678712
+				size = 278712
 			}
 			create_pop = {
 				culture = armenian
@@ -1241,28 +1241,13 @@
 			}
 			create_pop = {
 				culture = greek
-				size = 135110
+				size = 435110
 			}
 			create_pop = { # Laz
 				culture = georgian
-				religion = sunni
 				size = 40320
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = north_caucasian
-				size = 8732
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 291
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = georgian
-				size = 4341
-			}
+
 		}
 	}
 	s:STATE_ERZURUM = {
@@ -1273,7 +1258,7 @@
 			}
 			create_pop = {
 				culture = kurdish
-				size = 380301
+				size = 300301
 			}
 			create_pop = {
 				culture = greek
@@ -1285,7 +1270,7 @@
 			}
 			create_pop = {
 				culture = armenian
-				size = 255800
+				size = 355800
 			}
 			create_pop = {
 				culture = armenian

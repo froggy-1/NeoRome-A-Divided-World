@@ -1,101 +1,38 @@
 ﻿POPS = {
 	s:STATE_MALAYA = {
-		region_state:JOH = {
+		region_state:ACE = {
 			create_pop = {
 				culture = malay
-				size = 399600
+				size = 1100600
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = malay
-				size = 11000
+				size = 14000
 			}
 			create_pop = {
 				culture = yue
-				size = 27404
-			}
-		}
-		region_state:SEL = {
-			create_pop = {
-				culture = malay
-				size = 209000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = malay
-				size = 7000
-			}
-			create_pop = {
-				culture = yue
-				size = 22000
-			}
-		}
-		region_state:PRK = {
-			create_pop = {
-				culture = malay
-				size = 136000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = malay
-				size = 2000
-			}
-			create_pop = {
-				culture = yue
-				size = 9000
-			}
-		}
-		region_state:SIA = {
-			create_pop = {
-				culture = malay
-				size = 248000
-			}
-			create_pop = {
-				culture = yue
-				size = 12800
+				size = 100404
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = yue
 				size = 4000
 			}
-		}
-		region_state:BIC = {
 			create_pop = {
 				culture = malay
 				size = 60000
 			}
 			create_pop = {
-				culture = tamil
-				size = 2400
-			}
-			create_pop = {
-				culture = yue
-				size = 4000
-			}
-			create_pop = {
-				culture = british
-				size = 600
-			}
-		}
-		region_state:ENG = {
-			create_pop = {
-				culture = malay
-				size = 40000
+				culture = sumatran
+				size = 125720
 			}
 			create_pop = {
 				culture = tamil
-				size = 2000
-			}
-			create_pop = {
-				culture = yue
-				size = 13996
-			}
-			create_pop = {
-				culture = british
-				size = 2196
+				size = 2600
 			}
 		}
+
 	}
 	s:STATE_NORTH_BORNEO = {
 		region_state:BRU = {
@@ -172,10 +109,15 @@
 		}
 	}
 	s:STATE_WEST_BORNEO = {
-		region_state:LAN = {
+		region_state:BRU = {
+			create_pop = {
+				pop_type = slaves
+				culture = bornean
+				size = 4000
+			}
 			create_pop = {
 				culture = bornean
-				size = 149900
+				size = 209900
 			}
 			create_pop = {
 				culture = dayak
@@ -186,36 +128,13 @@
 				religion = sunni
 				size = 16700
 			}
+
 			create_pop = {
 				culture = hakka
 				size = 26000
 			}
 		}
-		region_state:DEI = {
-			create_pop = {
-				culture = bornean
-				size = 39660
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bornean
-				size = 4000
-			}
-			create_pop = {
-				culture = dayak
-				size = 8000
-			}
-			create_pop = {
-				culture = dayak
-				religion = sunni
-				size = 1000
-			}
-			create_pop = {
-				culture = dayak
-				religion = protestant
-				size = 2000
-			}
-		}
+
 	}
 	s:STATE_EAST_BORNEO = {
 		region_state:BNJ = {
@@ -465,7 +384,7 @@
 				size = 5120
 			}
 		}
-		region_state:SAK = {
+		region_state:ACE = {
 			create_pop = {
 				culture = sumatran
 				size = 360120

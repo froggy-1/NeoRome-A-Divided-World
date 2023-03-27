@@ -548,6 +548,7 @@
 				size = 1992
 			}
 		}
+
 	}
 	s:STATE_WESTERN_AFGHANISTAN = {
 		region_state:KHI = {
@@ -628,7 +629,7 @@
 		}
 	}
 	s:STATE_BALUCHISTAN = {
-		region_state:ENG = {
+		region_state:SIN = {
 			create_pop = {
 				culture = baluchi
 				size = 440296
@@ -715,7 +716,7 @@
 		}
 	}
 	s:STATE_HIMALAYAS = {
-		region_state:SIK = {
+		region_state:BIC = {
 			create_pop = {
 				culture = tibetan
 				size = 60301
