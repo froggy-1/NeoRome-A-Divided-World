@@ -427,7 +427,7 @@ SUL = {
 SLW = {
 	color = { 153 0 0 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 	
 	tier = principality
 	
