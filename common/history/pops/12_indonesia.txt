@@ -35,7 +35,7 @@
 
 	}
 	s:STATE_NORTH_BORNEO = {
-		region_state:BRU = {
+		region_state:LAN = {
 			create_pop = {
 				culture = dayak
 				size = 75000
@@ -59,7 +59,7 @@
 				size = 100196
 			}
 		}
-		region_state:SUL = {
+		region_state:BRU = {
 			create_pop = {
 				culture = dayak
 				size = 14000
@@ -109,7 +109,7 @@
 		}
 	}
 	s:STATE_WEST_BORNEO = {
-		region_state:BRU = {
+		region_state:LAN = {
 			create_pop = {
 				pop_type = slaves
 				culture = bornean
@@ -802,7 +802,7 @@
 				size = 20004
 			}
 		}
-		region_state:SUL = {
+		region_state:BRU = {
 			create_pop = {
 				culture = moro
 				religion = sunni
@@ -860,7 +860,7 @@
 				size = 50000
 			}
 		}
-		region_state:SUL = {
+		region_state:BRU = {
 			create_pop = {
 				culture = moro
 				religion = sunni

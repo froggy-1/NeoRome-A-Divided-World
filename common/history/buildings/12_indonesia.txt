@@ -72,7 +72,7 @@
 		}
 	}
 	s:STATE_NORTH_BORNEO={
-		region_state:BRU={
+		region_state:LAN={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -86,7 +86,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:SUL={
+		region_state:BRU={
 			create_building={
 				building="building_tobacco_plantation"
 				level=1
@@ -736,7 +736,7 @@
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
-		region_state:SUL={
+		region_state:BRU={
 			create_building={
 				building="building_barracks"
 				level=2
@@ -816,7 +816,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:SUL={
+		region_state:BRU={
 		}
 	}
 	s:STATE_VISAYAS={
