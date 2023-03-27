@@ -1683,6 +1683,39 @@
 				size = 60000
 			}
 		}
+		region_state:SNA = {
+
+			create_pop = {
+				culture = swahili
+				size = 19996
+			}
+
+			create_pop = {
+				culture = sena
+				size = 460040
+			}
+			create_pop = {
+				culture = makua
+				religion = sunni
+				size = 55996
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				size = 10399
+			}
+			create_pop = {
+				culture = yao
+				size = 28430
+			}
+			create_pop = {
+				culture = chewa
+				size = 12800
+			}
+			create_pop = {
+				culture = lomwe
+				size = 6000
+			}
+		}
 	}
 	s:STATE_WADDAI = {
 		region_state:WAD = {
@@ -1991,7 +2024,7 @@
 		}
 	}
 	s:STATE_BAS_CONGO = {
-		region_state:KON = {
+		region_state:NET = {
 			create_pop = {
 				culture = bakongo
 				size = 252000
@@ -2000,6 +2033,11 @@
 				culture = bakongo
 				religion = catholic
 				size = 42000
+			}
+			create_pop = {
+				culture = dutch
+				religion = protestant
+				size = 600
 			}
 			create_pop = {
 				culture = fluvian_bantu
@@ -2534,15 +2572,12 @@
 		}
 	}
 	s:STATE_VRYSTAAT = {
-		region_state:SAF = {
+		region_state:BST = {
 			create_pop = {
 				culture = sotho
 				size = 353400
 			}
-			create_pop = {
-				culture = boer
-				size = 12200
-			}
+
 			create_pop = {
 				culture = nguni
 				size = 10000
@@ -2555,15 +2590,12 @@
 		}
 	}
 	s:STATE_TRANSVAAL = {
-		region_state:TRN = {
+		region_state:BST = {
 			create_pop = {
 				culture = sotho
 				size = 271804
 			}
-			create_pop = {
-				culture = boer
-				size = 10192
-			}
+
 			create_pop = {
 				culture = nguni
 				size = 164396
