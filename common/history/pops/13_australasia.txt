@@ -1,78 +1,102 @@
 ﻿POPS = {
 	s:STATE_NEW_SOUTH_WALES = {
+		region_state:AU1 = {
+			create_pop = {
+				culture = aborigine
+				size = 13200
+			}
+			create_pop = {
+				culture = ao
+				size = 31384
+			}
+			create_pop = {
+				culture = han
+				size = 1600
+			}
+		}
 		region_state:NSW = {
 			create_pop = {
 				culture = aborigine
-				size = 63200
-			}
-			create_pop = {
-				culture = australian
-				size = 101384
-			}
-			create_pop = {
-				culture = irish
-				size = 16080
+				size = 53200
 			}
 		}
 	}
 	s:STATE_VICTORIA = {
-		region_state:NSW = {
+		region_state:AU1 = {
 			create_pop = {
 				culture = aborigine
-				size = 31118
+				size = 11118
 			}
 			create_pop = {
-				culture = australian
-				size = 24676
+				culture = ao
+				size = 84676
 			}
 		}
 	}
 
 	s:STATE_TASMANIA = {
-		region_state:TAS = {
+		region_state:AU1 = {
 			create_pop = {
 				culture = aborigine
 				size = 12208
 			}
 			create_pop = {
-				culture = australian
-				size = 11319
+				culture = ao
+				size = 113190
 			}
 		}
 	}
 	s:STATE_QUEENSLAND = {
+		region_state:AU1 = {
+			create_pop = {
+				culture = aborigine
+				size = 9200
+			}
+			create_pop = {
+				culture = ao
+				size = 44000
+			}
+		}
 		region_state:NSW = {
 			create_pop = {
 				culture = aborigine
-				size = 59200
-			}
-			create_pop = {
-				culture = australian
-				size = 4000
+				size = 68500
 			}
 		}
 	}
 	s:STATE_SOUTH_AUSTRALIA = {
-		region_state:SAS = {
+		region_state:AU1 = {
 			create_pop = {
-				culture = australian
-				size = 10500
+				culture = ao
+				size = 30500
 			}		
 			create_pop = {
 				culture = aborigine
-				size = 32000
+				size = 4000
+			}
+		}
+		region_state:NSW = {		
+			create_pop = {
+				culture = aborigine
+				size = 40000
 			}
 		}
 	}
 	s:STATE_WESTERN_AUSTRALIA = {
-		region_state:WAS = {
+		region_state:AU2 = {
 			create_pop = {
 				culture = aborigine
-				size = 47500
+				size = 7500
 			}
 			create_pop = {
 				culture = australian
-				size = 3004
+				size = 30004
+			}
+		}
+		region_state:NSW = {
+			create_pop = {
+				culture = aborigine
+				size = 40000
 			}
 		}
 		region_state:NNG = {
@@ -87,6 +111,30 @@
 			create_pop = {
 				culture = aborigine
 				size = 31804
+			}
+		}
+		region_state:NET = {
+			create_pop = {
+				culture = dutch
+				size = 13500
+			}
+			create_pop = {
+				culture = aborgine
+				size = 3500
+			}
+			create_pop = {
+				culture = australian
+				size = 1500
+			}
+		}
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 11400
+			}
+			create_pop = {
+				culture = aborgine
+				size = 4500
 			}
 		}
 	}
