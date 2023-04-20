@@ -10,9 +10,13 @@ baltic.1 = {
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
    	 trigger = {
-     	   	exists = c:RUS
-   	     	this = c:RUS
-		year > 1845.1.1	
+	 	OR = {
+    			AND = {
+     	   			exists = c:RUS
+   	     			this = c:RUS
+				year > 1845.1.1	
+			}
+		}
 	}
 
 	event_image = {
