@@ -504,3 +504,17 @@ AU2 = {
 	cultures = { dutch }
 	capital = STATE_WESTERN_AUSTRALIA
 }
+
+
+#### Lavo
+
+LVO = {
+	color = hsv360{ 221 27 92 }
+
+	country_type = unregonized
+
+	tier = kingdom
+
+	cultures = { khmer }
+	capital = STATE_BANGKOK
+}
