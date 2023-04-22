@@ -1210,7 +1210,7 @@
 		}
 	}
 	s:STATE_CAMBODIA={
-		region_state:SIA={
+		region_state:LVO={
 			create_building={
 				building="building_tea_plantation"
 				level=1
@@ -1250,7 +1250,7 @@
 		}
 	}
 	s:STATE_BANGKOK={
-		region_state:SIA={
+		region_state:LVO={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -1380,7 +1380,7 @@
 		}
 	}
 	s:STATE_LAOS={
-		region_state:LUA={
+		region_state:SIA={
 			create_building={
 				building="building_opium_plantation"
 				level=2
@@ -1394,7 +1394,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:SIA={
+		region_state:LVO={
 			create_building={
 				building="building_opium_plantation"
 				level=1
@@ -1440,7 +1440,7 @@
 		}
 	}
 	s:STATE_NAKHON_RATCHASIMA={
-		region_state:SIA={
+		region_state:LVO={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -1482,7 +1482,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:SIA={
+		region_state:LVO={
 		}
 	}
 	s:STATE_KACHIN={
