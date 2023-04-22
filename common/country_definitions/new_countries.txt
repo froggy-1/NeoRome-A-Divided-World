@@ -509,7 +509,7 @@ AU2 = {
 #### Lavo
 
 LVO = {
-	color = hsv360{ 221 27 92 }
+	color = hsv360{ 221 73 94 }
 
 	country_type = unregonized
 
