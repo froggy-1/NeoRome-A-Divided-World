@@ -116,7 +116,7 @@
 				size = 40000
 			}
 		}
-		region_state:LUA = {
+		region_state:SIA = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 37780
@@ -251,7 +251,7 @@
 				size = 303200
 			}
 		}
-		region_state:LUA = {
+		region_state:SIA = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 730650
@@ -818,7 +818,7 @@
 		}
 	}
 	s:STATE_CAMBODIA = {
-		region_state:SIA = {
+		region_state:LVO = {
 			create_pop = {
 				culture = khmer
 				size = 176400
@@ -863,7 +863,7 @@
 		}
 	}
 	s:STATE_BANGKOK = {
-		region_state:SIA = {
+		region_state:LVO = {
 			create_pop = {
 				culture = thai
 				size = 1534004
@@ -884,7 +884,7 @@
 		}
 	}
 	s:STATE_TONKIN = {
-		region_state:LUA = {
+		region_state:SIA = {
 			create_pop = {
 				culture = lao
 				size = 1841220
@@ -984,7 +984,7 @@
 		}
 	}
 	s:STATE_LAOS = {
-		region_state:LUA = {
+		region_state:SIA = {
 			create_pop = {
 				culture = lao
 				size = 240024
@@ -1008,7 +1008,7 @@
 				size = 4000
 			}
 		}
-		region_state:SIA = {
+		region_state:LVO = {
 			create_pop = {
 				culture = lao
 				size = 123996
@@ -1048,7 +1048,7 @@
 		}
 	}
 	s:STATE_CHIANG_MAI = {
-		region_state:LUA = {
+		region_state:SIA = {
 			create_pop = {
 				culture = lao
 				size = 526096
@@ -1073,7 +1073,7 @@
 		}
 	}
 	s:STATE_NAKHON_RATCHASIMA = {
-		region_state:SIA = {
+		region_state:LVO = {
 			create_pop = {
 				culture = lao
 				size = 588000
@@ -1101,7 +1101,7 @@
 				size = 13000
 			}
 		}
-		region_state:LUA = {
+		region_state:SIA = {
 			create_pop = {
 				culture = lao
 				size = 188000
@@ -1158,7 +1158,7 @@
 				size = 20000
 			}
 		}
-		region_state:SIA = {
+		region_state:LVO = {
 			create_pop = {
 				culture = burmese
 				size = 36000
@@ -1263,7 +1263,7 @@
 				size = 40000
 			}
 		}
-		region_state:SIA = {
+		region_state:LVO = {
 			create_pop = {
 				culture = thai
 				size = 787900
